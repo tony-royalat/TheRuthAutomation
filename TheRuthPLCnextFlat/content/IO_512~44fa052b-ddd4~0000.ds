@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInstDoc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/Projekte/PC_Worx_Next/XML/Schemas/DevInst.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <DevInst uuid="44fa052b-ddd4-4f88-852f-51f4a01395ff">
+    <TInfo uri="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/ae05e60a-1c83-4958-b0cb-4e8736e28c9f/14ee7d10-4187-487a-93e8-8b481e9b2ce9" />
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base00' type='Generic:Function']" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base01' type='Generic:Location']" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base02' type='AmlApcStationName']" Type="Ade.Fdcml.Core.String">[UTF-8;]</InstVal>
+    <InstVal xPath="Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/84e9197a-2201-48e8-b7f3-08da2648f3ca</InstVal>
+    <InstVal xPath="Generic:FormattedTypeNameWithoutVersion" Type="System.String">IO 512</InstVal>
+    <InstVal xPath="Generic:FormattedTypeName" Type="System.String">IO 512</InstVal>
+    <InstVal xPath="AutomationML:DeviceItemId" Type="System.String">0dac1a35-36bf-4d11-9b51-2b9876b8e5c4</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnsm01' type='PN:Activated']" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=io0]" Type="System.String">DI4096</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=io2]" Type="System.String">DQ4096</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PDList/PD[@uid=smiops]" Type="System.String">SM_IOPS</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/PN:NodeID" Type="Ade.Fdcml.Core.Unsigned32">35</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/SlotNumber" Type="Ade.Fdcml.Core.Unsigned16">1</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/Generic:FormattedTypeName" Type="System.String"></InstVal>
+  </DevInst>
+</DevInstDoc>

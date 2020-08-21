@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Languages ID="00000000-0000-0000-0000-000000000000" Name="Default" />
+  <Resources ID="b8b80c9d-5bcc-4be7-9e3d-19cb1f5d3880" Name="Button1.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="This Button Does Nothing" />
+  </Resources>
+  <Resources ID="0946dbb7-8449-4c9d-85a6-4c77ae9ffc21" Name="Button1.TextWhenDown">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Told You..." />
+  </Resources>
+</ResourcesDocument>

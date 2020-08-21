@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInstDoc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/Projekte/PC_Worx_Next/XML/Schemas/DevInst.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <DevInst uuid="dd0a88d4-00cb-433d-b497-ce8f3d0a77d5">
+    <TInfo uri="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/ae05e60a-1c83-4958-b0cb-4e8736e28c9f/8290ebfe-4d63-4091-aad2-1cc6ac0151a5" />
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base00' type='Generic:Function']" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base01' type='Generic:Location']" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base02' type='AmlApcStationName']" Type="Ade.Fdcml.Core.String">[UTF-8;6178632D662D313135322D6465766963652D31]</InstVal>
+    <InstVal xPath="VirtualSlotNumber" Type="Ade.Fdcml.Core.Unsigned16">12</InstVal>
+    <InstVal xPath="Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/548d5c3f-e9e8-48c0-bb95-5180309b4ed1</InstVal>
+    <InstVal xPath="Generic:FormattedTypeNameWithoutVersion" Type="System.String">AXC F 1152</InstVal>
+    <InstVal xPath="Generic:FormattedTypeName" Type="System.String">AXC F 1152 Rev. &gt;= 0/V20.0.0</InstVal>
+    <InstVal xPath="AutomationML:DeviceId" Type="System.String">0a47077c-8bd6-4e56-9ff0-ae3a78b26db3</InstVal>
+    <InstVal xPath="AutomationML:RackId" Type="System.String">09ddac4d-008e-4660-a813-a4ac5fb5620a</InstVal>
+    <InstVal xPath="AutomationML:DeviceItemId" Type="System.String">5a16c957-e424-499a-bcc0-8c7d35b61881</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd00' type='PN:CfgDiff']" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd01' type='PN:LogConStat']" Type="Ade.Fdcml.Core.Unsigned16">1</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd02' type='PN:IgnFS']" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd07' type='PN:MediaRedundancySupported']" Type="Ade.Fdcml.Core.Bit">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd08' type='PN:ARUID']" Type="Ade.Fdcml.Core.Unsigned16">2</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd09' type='PN:ARUUID']" Type="Ade.Fdcml.Core.String">[UTF-8;36643736383234632D396564322D346435362D623831362D633166376561666563343638]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd10' type='PN:CRInputFrameID']" Type="Ade.Fdcml.Core.Unsigned16">36865</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd11' type='PN:CROutputFrameID']" Type="Ade.Fdcml.Core.Unsigned16">65535</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd12' type='PN:StartAROnStartup']" Type="Ade.Fdcml.Core.Bit">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd13' type='PN:LocalAlarmRef']" Type="Ade.Fdcml.Core.Unsigned16">2</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd14' type='PN:SubsModeInput']" Type="Ade.Fdcml.Core.Unsigned8">0</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/InstanceObjList/Obj[@uID='pnd15' type='AmlApcStationName']" Type="Ade.Fdcml.Core.String">[UTF-8;]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7']/Generic:FormattedTypeName" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer3-4[@uID='L34']/InstanceObjList/Obj[@uID='ip100' type='IP:IpAddress']" Type="Ade.Fdcml.Core.Ipv4">192.168.42.2</InstVal>
+    <InstVal xPath="//Layer3-4[@uID='L34']/InstanceObjList/Obj[@uID='ip101' type='IP:DnsName']" Type="Ade.Fdcml.Core.StringAscii">axc-f-1152-device-1</InstVal>
+    <InstVal xPath="//Layer3-4[@uID='L34']/InstanceObjList/Obj[@uID='ip102' type='IP:ExtendedDomainName']" Type="Ade.Fdcml.Core.String">[UTF-8;6178632D662D313135322D6465766963652D31]</InstVal>
+    <InstVal xPath="//Layer3-4[@uID='L34']/InstanceObjList/Obj[@uID='ip103' type='IP:DefaultGateway']" Type="Ade.Fdcml.Core.Ipv4">192.168.42.101</InstVal>
+    <InstVal xPath="//Layer3-4[@uID='L34']/InstanceObjList/Obj[@uID='ip104' type='IP:SubnetMask']" Type="Ade.Fdcml.Core.Ipv4">255.255.255.0</InstVal>
+    <InstVal xPath="//Layer3-4[@uID='L34']/InstanceObjList/Obj[@uID='ip105' type='IP:IndividualSettings']" Type="Ade.Fdcml.Core.Boolean">False</InstVal>
+    <InstVal xPath="//Layer3-4[@uID='L34']/AutomationML:NodeId" Type="System.String">df5db108-899e-4330-8c9b-8bf29f9190f1</InstVal>
+    <InstVal xPath="//Layer1-2[@uID='L1_1']/AutomationML:CommunicationInterfaceId" Type="System.String">6d87ba7b-8eda-495f-a988-9e984e6afef8</InstVal>
+  </DevInst>
+</DevInstDoc>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RestoreDataItem Version="1" DeletionDate="2020-08-21 20:50:55Z" DisplayName="Login">
+    <NodeData DomainId="e639c0f9-db09-46f4-abf7-50216a13f220" SolutionId="606e2993-1c57-411c-b0d2-c57a13c52bbf" NodeId="4ada6b10-6a1f-40cf-afdd-23d59441eb90" ParentId="dbcd17a3-70da-47fe-98f2-77ef5045928f" PredecessorId="be1e4ca5-6541-4f05-82c3-8d04cdc88e22" Position="5" Kind="Instance" />
+</RestoreDataItem>

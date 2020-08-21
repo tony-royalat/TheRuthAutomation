@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInstDoc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/Projekte/PC_Worx_Next/XML/Schemas/DevInst.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <DevInst uuid="a8046890-50fe-461c-b8c9-5f3ab06a9233">
+    <TInfo uri="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/ae05e60a-1c83-4958-b0cb-4e8736e28c9f/3355c899-c309-4d56-9367-db01e5f2da7c" />
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base00' type='Generic:Function']" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base01' type='Generic:Location']" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base02' type='AmlApcStationName']" Type="Ade.Fdcml.Core.String">[UTF-8;]</InstVal>
+    <InstVal xPath="Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/435a646c-c8d3-4163-ba61-23ee769649de</InstVal>
+    <InstVal xPath="Generic:FormattedTypeNameWithoutVersion" Type="System.String">DAP</InstVal>
+    <InstVal xPath="Generic:FormattedTypeName" Type="System.String">DAP</InstVal>
+    <InstVal xPath="AutomationML:DeviceItemId" Type="System.String">2054569c-1e34-4059-b955-65e090fb3313</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/L7ObjList/Obj[@uID='o3' type='PN:AddrAssgn']" Type="Ade.Fdcml.Core.Unsigned32">0</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/SlotNumber" Type="Ade.Fdcml.Core.Unsigned16">0</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/Generic:FormattedTypeName" Type="System.String"></InstVal>
+  </DevInst>
+</DevInstDoc>

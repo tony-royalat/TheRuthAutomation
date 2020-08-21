@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Properties>
+    <Title>TheRuthPLCnext</Title>
+    <Identifier>95d685e5-90f0-4700-9411-98be3a00e47f</Identifier>
+    <Type>Project</Type>
+    <Requirements>
+        <Item>Areas</Item>
+    </Requirements>
+    <AdditionalProperties>
+        <Property Key="Application" Value="PLCnext Engineer" />
+        <Property Key="SubType" Value="" />
+        <Property Key="ApplicationVersion" Value="4.5.211.0" />
+        <Property Key="ProductVersion" Value="2020.6" />
+    </AdditionalProperties>
+</Properties>
