@@ -10,6 +10,14 @@
       </CockpitDocument>
    </ItemGroup>
    <ItemGroup>
+      <CodeWorksheet Include="Logical Elements\Main.pou\Code.st">
+         <Id>15c5b6e1-825a-4dc8-83ae-9375c98ff9d4</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>5</ParentIndex>
+      </CodeWorksheet>
+   </ItemGroup>
+   <ItemGroup>
       <ControllerStatisticDocument Include="Hardware\CFG_76D0281495B745729618565560F2A67F\942b600f-699a-4fad-8204-ed13529ee8c5.statistic">
          <Id>4b429255-5006-40c9-a6aa-88e47bd2f058</Id>
          <Visible>False</Visible>
@@ -886,9 +894,9 @@
          <ParentIndex>2</ParentIndex>
       </LocalResources>
       <LocalResources Include="Logical Elements\Main.pou\Variables.var.locres">
-         <Id>67daa751-2dec-4b8b-ae86-32d0519d6238</Id>
+         <Id>a72c8fd9-1540-4309-a1d3-87f8cb69f238</Id>
          <Visible>False</Visible>
-         <ParentIndex>5</ParentIndex>
+         <ParentIndex>6</ParentIndex>
       </LocalResources>
    </ItemGroup>
    <ItemGroup>

@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Homepage" BorderWidth="0" ImageId="bbd3ca13-8425-415e-825f-03ad28a86d2d" ImageScaling="Fit">
+  <References>
+    <Variables>
+      <Variable Id="e2d7055b-de69-4d9e-bf0e-35727279dc69" Name="ButtonThing" DataType="BOOL" />
+    </Variables>
+  </References>
   <Layers>
     <Layer>
       <Objects>
         <HmiObject xsi:type="Button" Rotation="0" ID="Button1" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" Text="This Button Does Nothing" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="true" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
           <Origin>
-            <X>1005.9999999999989</X>
-            <Y>701.99999999999966</Y>
+            <X>1003</X>
+            <Y>702</Y>
           </Origin>
           <Location>
-            <X>1005.9999999999989</X>
-            <Y>701.99999999999966</Y>
+            <X>1003</X>
+            <Y>702</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
@@ -31,6 +36,9 @@
             <Width>241.00000000000045</Width>
             <Height>69</Height>
           </Size>
+          <VariableInstance>
+            <Id>e2d7055b-de69-4d9e-bf0e-35727279dc69</Id>
+          </VariableInstance>
           <TextWhenDown>Told You...</TextWhenDown>
           <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
           <ImageArea>

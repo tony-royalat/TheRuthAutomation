@@ -164,7 +164,7 @@
     <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi3' type='HMI:SimHttpPort']" Type="Ade.Fdcml.Core.Unsigned16">443</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi4' type='HMI:SessionTimeout']" Type="Ade.Fdcml.Core.Unsigned32">5000</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi5' type='HMI:DataPollInterval']" Type="Ade.Fdcml.Core.Unsigned32">250</InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi10' type='HMI:AccessRights']" Type="Ade.Fdcml.Core.Unsigned8">2</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi10' type='HMI:AccessRights']" Type="Ade.Fdcml.Core.Unsigned8">0</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi11' type='SysVarUpdateTask']" Type="Ade.Fdcml.Core.String">[UTF-8;]</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi12' type='HMI:RecoveryCountdown']" Type="Ade.Fdcml.Core.Unsigned8">10</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/PDList/PD[@uid=hmipd001]" Type="System.String">HMI_STATUS</InstVal>

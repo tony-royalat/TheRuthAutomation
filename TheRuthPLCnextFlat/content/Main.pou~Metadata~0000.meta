@@ -8,5 +8,11 @@
       <VariableWorksheet>
          <Id>a418ac01-ac2e-4083-936a-29942961d3b8</Id>
       </VariableWorksheet>
+      <CodeWorksheet Include="Code.st">
+         <Id>15c5b6e1-825a-4dc8-83ae-9375c98ff9d4</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>0</ParentIndex>
+      </CodeWorksheet>
    </ItemGroup>
 </Metadata>

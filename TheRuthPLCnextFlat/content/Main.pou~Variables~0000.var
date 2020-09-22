@@ -1,11 +1,5 @@
-﻿VAR
+{ CustomGroupDefinition('6d89ea51-80bf-4b89-805c-5d22adc78e3f', '') }
 
-END_VAR
-
-VAR RETAIN
-
-END_VAR
-
-VAR_EXTERNAL
-
+VAR_GLOBAL
+    ButtonThing : BOOL { CustomGroupReference('6d89ea51-80bf-4b89-805c-5d22adc78e3f'), PROFICLOUD, InputPort } {Id('cbdee493-adc5-4da4-aadc-0527adf39920')};
 END_VAR
