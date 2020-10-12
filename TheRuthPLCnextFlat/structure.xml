@@ -18,6 +18,12 @@
         <folder name="AXLF_Master">
           <file name="Arp.Io.Axl.ControllerComponent.compmeta" id="AXLF_Mast~Arp.Io.Axl~0000.compmeta" />
           <file name="Arp.Io.Axl.libmeta" id="AXLF_Mast~Arp.Io.Axl~0001.libmeta" />
+          <folder name="AXL_F_AI2_AO2_1H">
+            <file name="5e32c7ab-4c04-4d09-953a-b4c8fe795d7a.ds" id="AXL_F_AI2~5e32c7ab-4~0000.ds" />
+          </folder>
+          <folder name="AXL_F_DI8_1_DO8_1_1H">
+            <file name="8bf93a00-8717-4ef9-b880-668a219b9f4f.ds" id="AXL_F_DI8~8bf93a00-8~0000.ds" />
+          </folder>
         </folder>
         <folder name="EIP_Master">
           <file name="Arp.Io.EthernetIP.libmeta" id="EIP_Maste~Arp.Io.Eth~0000.libmeta" />
@@ -56,21 +62,17 @@
           <file name="Arp.Io.Pn.libmeta" id="PN_Master~Arp.Io.Pn~0000.libmeta" />
           <file name="ControllerComponent.compmeta" id="PN_Master~Controller~0000.compmeta" />
           <folder name="AXL_F_BK_PN">
-            <file name="b9b13606-7507-4337-a51d-4bc275551f9b.ds" id="AXL_F_BK_~b9b13606-7~0000.ds" />
             <folder name="DAP">
-              <file name="a8046890-50fe-461c-b8c9-5f3ab06a9233.ds" id="DAP~a8046890-50fe-46~0000.ds" />
-              <folder name="DAP">
-                <file name="f623eab4-7d09-4b37-8bb7-243789cf2503.ds" id="DAP~f623eab4-7d09-4b~0000.ds" />
-              </folder>
-              <folder name="Interface">
-                <file name="4e3bdc52-ad44-43cb-a369-bc27c9ddb895.ds" id="Interface~4e3bdc52-a~0000.ds" />
-              </folder>
-              <folder name="Port_1">
-                <file name="8e102cfd-9f0c-403a-bc36-cef50c971296.ds" id="Port_1~8e102cfd-9f0c~0000.ds" />
-              </folder>
-              <folder name="Port_2">
-                <file name="e419a6da-2ce8-4fe1-b556-bf9f4423736f.ds" id="Port_2~e419a6da-2ce8~0000.ds" />
-              </folder>
+              <folder name="DAP" />
+              <folder name="Interface" />
+              <folder name="Port_1" />
+              <folder name="Port_2" />
+            </folder>
+            <folder name="AXL_F_AI2_AO2_1H">
+              <folder name="AI2_AO2" />
+            </folder>
+            <folder name="AXL_F_DI8_1_DO8_1_1H">
+              <folder name="DI8_DO8" />
             </folder>
           </folder>
           <folder name="AXC_F_1152">
@@ -170,6 +172,39 @@
           <file name="Parameters.hmiparams" id="Login.hmi~Parameters~0001.hmiparams" />
           <file name="Resources.locres" id="Login.hmi~Resources~0001.locres" />
           <file name="Variables.hmivar" id="Login.hmi~Variables~0001.hmivar" />
+        </folder>
+      </folder>
+      <folder name="c84901e0-24de-44af-9ec2-21527ee5498c">
+        <file name="c84901e0-24de-44af-9ec2-21527ee5498c" id="c84901e0-~c84901e0-2~0000" />
+        <folder name="AXL_F_BK_PN">
+          <file name="b9b13606-7507-4337-a51d-4bc275551f9b.ds" id="AXL_F_BK_~b9b13606-7~0001.ds" />
+          <folder name="DAP">
+            <file name="a8046890-50fe-461c-b8c9-5f3ab06a9233.ds" id="DAP~a8046890-50fe-46~0001.ds" />
+            <folder name="DAP">
+              <file name="f623eab4-7d09-4b37-8bb7-243789cf2503.ds" id="DAP~f623eab4-7d09-4b~0001.ds" />
+            </folder>
+            <folder name="Interface">
+              <file name="4e3bdc52-ad44-43cb-a369-bc27c9ddb895.ds" id="Interface~4e3bdc52-a~0001.ds" />
+            </folder>
+            <folder name="Port_1">
+              <file name="8e102cfd-9f0c-403a-bc36-cef50c971296.ds" id="Port_1~8e102cfd-9f0c~0001.ds" />
+            </folder>
+            <folder name="Port_2">
+              <file name="e419a6da-2ce8-4fe1-b556-bf9f4423736f.ds" id="Port_2~e419a6da-2ce8~0001.ds" />
+            </folder>
+          </folder>
+          <folder name="AXL_F_AI2_AO2_1H">
+            <file name="a491384f-7661-4626-b5dd-e6fc612e789b.ds" id="AXL_F_AI2~a491384f-7~0001.ds" />
+            <folder name="AI2_AO2">
+              <file name="881bbb04-2cd2-41cf-9c56-c1207cdd7a69.ds" id="AI2_AO2~881bbb04-2cd~0001.ds" />
+            </folder>
+          </folder>
+          <folder name="AXL_F_DI8_1_DO8_1_1H">
+            <file name="5f4ef2ba-1be3-4116-9110-ffb23649967c.ds" id="AXL_F_DI8~5f4ef2ba-1~0001.ds" />
+            <folder name="DI8_DO8">
+              <file name="a876b27f-5ef3-4949-986a-e57ec307b15b.ds" id="DI8_DO8~a876b27f-5ef~0001.ds" />
+            </folder>
+          </folder>
         </folder>
       </folder>
     </folder>

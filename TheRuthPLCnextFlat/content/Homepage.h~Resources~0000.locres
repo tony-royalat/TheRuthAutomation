@@ -7,4 +7,10 @@
   <Resources ID="0946dbb7-8449-4c9d-85a6-4c77ae9ffc21" Name="Button1.TextWhenDown">
     <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Told You..." />
   </Resources>
+  <Resources ID="6ec6342e-7ade-44e1-a6f0-0e477e2786c3" Name="Button_Zone1.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Zone 1" />
+  </Resources>
+  <Resources ID="6e2d3af3-5b28-4768-b01a-e80ee50ae9f1" Name="Button_Zone1.TextWhenDown">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="" />
+  </Resources>
 </ResourcesDocument>

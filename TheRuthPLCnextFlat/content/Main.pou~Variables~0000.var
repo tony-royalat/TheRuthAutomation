@@ -3,3 +3,7 @@
 VAR_GLOBAL
     ButtonThing : BOOL { CustomGroupReference('6d89ea51-80bf-4b89-805c-5d22adc78e3f'), PROFICLOUD, InputPort } {Id('cbdee493-adc5-4da4-aadc-0527adf39920')};
 END_VAR
+
+VAR_EXTERNAL
+    Zone1 : BOOL { CustomGroupReference('6d89ea51-80bf-4b89-805c-5d22adc78e3f') } {Id('43aec1f5-7895-4c25-b83b-86b2b6bf2277')};
+END_VAR

@@ -16,7 +16,7 @@
     <InstVal xPath="//Layer7[@uID='L7_1']/L7ObjList/Obj[@uID='o6_1a' type='ESM:Instance1']" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/L7ObjList/Obj[@uID='o6_2' type='PLCnext:TaskProperties']" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/L7ObjList/Obj[@uID='oe6_evts' type='PLCnext:Events']" Type="Ade.Fdcml.Core.StringAscii">Arp.Plc.Esm.OnColdStart</InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_1']/L7ObjList/Obj[@uID='o6_3' type='SysVarUpdateTask']" Type="Ade.Fdcml.Core.String">[UTF-8;4379636C6963313030]</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/L7ObjList/Obj[@uID='o6_3' type='SysVarUpdateTask']" Type="Ade.Fdcml.Core.String">[UTF-8;4379636C69633530]</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='piPrjName']/Current" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='diSerNum']/Current" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='diFWVer']/Current" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
@@ -253,8 +253,8 @@
     <InstVal xPath="//Layer7[@uID='L7_5']/Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9462930c-4df0-4027-9cf0-502693aed4e8</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/Generic:FormattedTypeName" Type="System.String"></InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_4']/InstanceObjList/Obj[@uID='pnm03' type='PN:LLDPNoDEnabled']" Type="Ade.Fdcml.Core.Boolean">False</InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_4']/InstanceObjList/Obj[@uID='pnm04' type='PN:LLDPNoDUIEnabled']" Type="Ade.Fdcml.Core.Boolean">False</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_4']/InstanceObjList/Obj[@uID='pnm03' type='PN:LLDPNoDEnabled']" Type="Ade.Fdcml.Core.Boolean">True</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_4']/InstanceObjList/Obj[@uID='pnm04' type='PN:LLDPNoDUIEnabled']" Type="Ade.Fdcml.Core.Boolean">True</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_4']/InstanceObjList/Obj[@uID='pnm05' type='PN:LLDPNoDEnabledLastValue']" Type="Ade.Fdcml.Core.Boolean">True</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_4']/L7ObjList/Obj[@uID='pco11' type='PN:SuppSendClock']" Type="Ade.Fdcml.Core.Unsigned32">32</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_4']/L7ObjList/Obj[@uID='pco14' type='PN:ConfigurePDev']" Type="Ade.Fdcml.Core.Boolean">True</InstVal>
@@ -286,7 +286,7 @@
     <InstVal xPath="//Layer7[@uID='L7_4']/Generic:FormattedTypeName" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_4']/AutomationML:IoSystemId" Type="System.String">390aaa1a-f8b6-4a43-bbbf-af0624af6507</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_4']/AutomationML:SubnetId" Type="System.String">142de2a8-c60d-4499-b46e-1c046c36e348</InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_4']/PN:CpuLoad" Type="Ade.Fdcml.Core.Float64">52.11</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_4']/PN:CpuLoad" Type="Ade.Fdcml.Core.Float64">50.6</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_ax']/AXLF:CycleTime" Type="Ade.Fdcml.Core.Unsigned32">0</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_ax']/AXLF:ChangeTime" Type="Ade.Fdcml.Core.Unsigned32">0</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_ax']/AXLF:InDelay" Type="Ade.Fdcml.Core.Unsigned32">0</InstVal>

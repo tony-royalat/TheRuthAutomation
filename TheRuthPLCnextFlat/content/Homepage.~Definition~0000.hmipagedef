@@ -3,6 +3,7 @@
   <References>
     <Variables>
       <Variable Id="e2d7055b-de69-4d9e-bf0e-35727279dc69" Name="ButtonThing" DataType="BOOL" />
+      <Variable Id="6301706d-edae-49d9-80a0-c062989d37dd" Name="Zone1" DataType="BOOL" />
     </Variables>
   </References>
   <Layers>
@@ -40,6 +41,47 @@
             <Id>e2d7055b-de69-4d9e-bf0e-35727279dc69</Id>
           </VariableInstance>
           <TextWhenDown>Told You...</TextWhenDown>
+          <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
+          <ImageArea>
+            <Width>50</Width>
+            <Height>50</Height>
+          </ImageArea>
+          <CornerRadii>
+            <Width>0</Width>
+            <Height>0</Height>
+          </CornerRadii>
+        </HmiObject>
+        <HmiObject xsi:type="Button" Rotation="0" ID="Button_Zone1" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" Text="Zone 1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="true" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+          <Origin>
+            <X>46</X>
+            <Y>41</Y>
+          </Origin>
+          <Location>
+            <X>46</X>
+            <Y>41</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFECEDED" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>100</Width>
+            <Height>50</Height>
+          </Size>
+          <VariableInstance>
+            <Id>6301706d-edae-49d9-80a0-c062989d37dd</Id>
+          </VariableInstance>
           <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
           <ImageArea>
             <Width>50</Width>
