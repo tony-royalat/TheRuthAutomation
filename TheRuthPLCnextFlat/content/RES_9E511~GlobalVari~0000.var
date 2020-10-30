@@ -2,15 +2,17 @@
 { CustomGroupDefinition('971398c9-e054-4349-a1d9-e00a1840c9f4', 'System Variables') }
 
 VAR_GLOBAL
-    ButtonThing : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24'), PROFICLOUD } {Id('cd0c2be0-d01e-40c7-8661-5499de7b4af2')};
-END_VAR
-
-VAR_CONFIG
-    MainInstance.ButtonThing : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24'), ProgramGlobal, InputPort } {Id('c8da7876-b701-4a7c-b5fc-553d24388856')};
-END_VAR
-
-VAR_GLOBAL
     Zone1 : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('0be8e67b-0a74-4cc6-858a-e79c59f44426')};
+    Zone2 : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('b4795d88-2683-46e3-8c3b-e92ac72878ea')};
+    Zone3 : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('daba7d14-680a-4ec7-a7b1-3555af2e4e41')};
+    Zone4 : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('eb2977ff-1a27-4cce-b1f0-4ebad93c7947')};
+    Zone5 : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('c209e488-d1b2-4287-bd3b-22572ad5056f')};
+    Zone6 : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('1b132d2f-5be0-433c-8b66-83d8dd6238d3')};
+    Zone7 : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('662a4062-e4d5-41be-9564-46a03cf2a7b9')};
+    Zone8 : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('ca1fc5d2-ae61-4085-9144-ae3dbdf16b03')};
+    CarPresent : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('1eae1ff1-7bb5-4fab-af48-02e41c00fbd7')};
+    LightSwitch : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('c6528d3a-db6a-46bb-93ca-2379dfb0696b')};
+    GarageDoorClosed : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('96d6cb66-834c-45d5-937b-adc3c10c9e33')};
     PND_S1_PLC_RUN : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('fa815cda-4727-4965-b2a9-80e3b6635655')}; (*Higher level PLC in RUN*)
     PND_S1_VALID_DATA_CYCLE : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('557f9710-406b-4abb-8af2-a50b75a8fb3e')}; (*Connection to Profinet-Controller*)
     PND_S1_OUTPUT_STATUS_GOOD : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('dfff7161-e34d-4720-8457-96836fada337')}; (*IOP status of the higher-level control system*)

@@ -3,6 +3,16 @@
   <Name>HMI Configuration</Name>
   <RecentlyUsedColors>
     <Color>
+      <A>0</A>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+      <ScA>0</ScA>
+      <ScR>1</ScR>
+      <ScG>1</ScG>
+      <ScB>1</ScB>
+    </Color>
+    <Color>
       <A>255</A>
       <R>255</R>
       <G>255</G>

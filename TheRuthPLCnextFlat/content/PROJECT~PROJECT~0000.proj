@@ -679,6 +679,12 @@
          <StartPage>False</StartPage>
          <ParentIndex>5</ParentIndex>
       </HmiPage>
+      <HmiPage Include="Hardware\CFG_76D0281495B745729618565560F2A67F\HMI_Server\Application\Lighting.hmi">
+         <Id>1be9a0ec-e0dc-415d-b74a-73c90767fc07</Id>
+         <DisplayName>Lighting</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>6</ParentIndex>
+      </HmiPage>
    </ItemGroup>
    <ItemGroup>
       <HmiPageDefinition Include="RecycleBin\4ada6b10-6a1f-40cf-afdd-23d59441eb90\Login.hmi\Definition.hmipagedef">
@@ -694,6 +700,11 @@
       <HmiPageDefinition Include="Hardware\CFG_76D0281495B745729618565560F2A67F\HMI_Server\Application\Login.hmi\Definition.hmipagedef">
          <Id>3c103980-2146-4bcf-b01c-c1d78f3779b7</Id>
          <HmiPageId>ac2ae49d-4af4-4c0d-aae6-54da32cca077</HmiPageId>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+      <HmiPageDefinition Include="Hardware\CFG_76D0281495B745729618565560F2A67F\HMI_Server\Application\Lighting.hmi\Definition.hmipagedef">
+         <Id>c4ba745e-1761-4538-9ef9-68dc6758a895</Id>
+         <HmiPageId>1be9a0ec-e0dc-415d-b74a-73c90767fc07</HmiPageId>
          <ParentIndex>0</ParentIndex>
       </HmiPageDefinition>
    </ItemGroup>
@@ -717,6 +728,13 @@
          <DisplayName>Parameters</DisplayName>
          <Extension>.hmiparams</Extension>
          <HmiPageId>ac2ae49d-4af4-4c0d-aae6-54da32cca077</HmiPageId>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+      <HmiParameters Include="Hardware\CFG_76D0281495B745729618565560F2A67F\HMI_Server\Application\Lighting.hmi\Parameters.hmiparams">
+         <Id>34458f81-f6d6-49b4-ab35-47ee846bce61</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <HmiPageId>1be9a0ec-e0dc-415d-b74a-73c90767fc07</HmiPageId>
          <ParentIndex>1</ParentIndex>
       </HmiParameters>
    </ItemGroup>
@@ -745,6 +763,11 @@
       </HmiVariables>
       <HmiVariables Include="Hardware\CFG_76D0281495B745729618565560F2A67F\HMI_Server\Application\Login.hmi\Variables.hmivar">
          <Id>4012c847-fda9-4782-842a-c8fcce9448c4</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_76D0281495B745729618565560F2A67F\HMI_Server\Application\Lighting.hmi\Variables.hmivar">
+         <Id>20f333d9-bd71-43a1-bee0-869acce50732</Id>
          <Visible>False</Visible>
          <ParentIndex>3</ParentIndex>
       </HmiVariables>
@@ -816,6 +839,17 @@
          <ThumbnailId>71108a64-6b86-458e-ba0b-36eeb3714849</ThumbnailId>
          <ParentIndex>8</ParentIndex>
       </Image>
+      <Image Include="Logical Elements\led-parking-garage.jpg">
+         <Id>4224b8c2-eee1-4f87-b156-45ed14ae9389</Id>
+         <DisplayName>led-parking-garage</DisplayName>
+         <ImageWidth>1280</ImageWidth>
+         <ImageHeight>800</ImageHeight>
+         <Revision>1</Revision>
+         <ImageType>Raster</ImageType>
+         <SourceId>81c55209-1d22-4e07-8f11-63dc8e5839ed</SourceId>
+         <ThumbnailId>2399975a-f8dc-4484-aca1-a219f960dd3a</ThumbnailId>
+         <ParentIndex>9</ParentIndex>
+      </Image>
    </ItemGroup>
    <ItemGroup>
       <ImageSource Include="Logical Elements\13_1280.jpg\Source">
@@ -848,6 +882,11 @@
          <ImageId>b966cf8b-c391-4fb6-b09f-36d0c5f55ca6</ImageId>
          <ParentIndex>0</ParentIndex>
       </ImageSource>
+      <ImageSource Include="Logical Elements\led-parking-garage.jpg\Source">
+         <Id>81c55209-1d22-4e07-8f11-63dc8e5839ed</Id>
+         <ImageId>4224b8c2-eee1-4f87-b156-45ed14ae9389</ImageId>
+         <ParentIndex>0</ParentIndex>
+      </ImageSource>
    </ItemGroup>
    <ItemGroup>
       <ImageThumbnail Include="Logical Elements\13_1280.jpg\Thumbnail">
@@ -878,6 +917,11 @@
       <ImageThumbnail Include="Logical Elements\Vancouver at Dusk.jpg\Thumbnail">
          <Id>71108a64-6b86-458e-ba0b-36eeb3714849</Id>
          <ImageId>b966cf8b-c391-4fb6-b09f-36d0c5f55ca6</ImageId>
+         <ParentIndex>1</ParentIndex>
+      </ImageThumbnail>
+      <ImageThumbnail Include="Logical Elements\led-parking-garage.jpg\Thumbnail">
+         <Id>2399975a-f8dc-4484-aca1-a219f960dd3a</Id>
+         <ImageId>4224b8c2-eee1-4f87-b156-45ed14ae9389</ImageId>
          <ParentIndex>1</ParentIndex>
       </ImageThumbnail>
    </ItemGroup>
@@ -1045,8 +1089,14 @@
          <HmiPageId>ac2ae49d-4af4-4c0d-aae6-54da32cca077</HmiPageId>
          <ParentIndex>2</ParentIndex>
       </LocalResources>
+      <LocalResources Include="Hardware\CFG_76D0281495B745729618565560F2A67F\HMI_Server\Application\Lighting.hmi\Resources.locres">
+         <Id>0277800b-59c7-4aa3-85aa-837636afafab</Id>
+         <Visible>False</Visible>
+         <HmiPageId>1be9a0ec-e0dc-415d-b74a-73c90767fc07</HmiPageId>
+         <ParentIndex>2</ParentIndex>
+      </LocalResources>
       <LocalResources Include="Logical Elements\Main.pou\Variables.var.locres">
-         <Id>3654045a-8efb-4849-b0b0-a40d77adb081</Id>
+         <Id>1ee4aa71-066e-46d1-9b9a-6e93e2cee89d</Id>
          <Visible>False</Visible>
          <ParentIndex>6</ParentIndex>
       </LocalResources>

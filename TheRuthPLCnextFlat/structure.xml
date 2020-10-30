@@ -48,6 +48,12 @@
               <file name="Resources.locres" id="Homepage.h~Resources~0000.locres" />
               <file name="Variables.hmivar" id="Homepage.h~Variables~0000.hmivar" />
             </folder>
+            <folder name="Lighting.hmi">
+              <file name="Definition.hmipagedef" id="Lighting.~Definition~0000.hmipagedef" />
+              <file name="Parameters.hmiparams" id="Lighting.~Parameters~0000.hmiparams" />
+              <file name="Resources.locres" id="Lighting.h~Resources~0000.locres" />
+              <file name="Variables.hmivar" id="Lighting.h~Variables~0000.hmivar" />
+            </folder>
           </folder>
           <file name="HmiConfiguration.xml" id="HMI_Serve~HmiConfigu~0000.xml" />
         </folder>
@@ -132,6 +138,10 @@
       <folder name="Vancouver at Dusk.jpg">
         <file name="Source" id="Vancouver at ~Source~0000" />
         <file name="Thumbnail" id="Vancouver ~Thumbnail~0000" />
+      </folder>
+      <folder name="led-parking-garage.jpg">
+        <file name="Source" id="led-parking-g~Source~0000" />
+        <file name="Thumbnail" id="led-parkin~Thumbnail~0000" />
       </folder>
     </folder>
     <folder name="RecycleBin">
