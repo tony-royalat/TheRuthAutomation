@@ -1,0 +1,20 @@
+{ CustomGroupDefinition('6ef5c362-d2b3-4990-a0d1-a3364885e897', '') }
+
+VAR_EXTERNAL
+    Zone1_Out : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('fe16a91d-8a03-4f54-9091-e74aeebcb9f8')};
+    Zone2_Out : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('374a7cf4-c86c-44df-ad1a-5a783d0d7ae4')};
+    Zone3_Out : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('67a89117-d97d-4de9-84f9-4746aa3d9695')};
+    Zone5_Out : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('6c75b8da-2927-4005-90f5-0c44ba5986fd')};
+    Zone4_Out : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('3a1d36f2-da4f-4473-8127-ea709b044b20')};
+    Zone6_Out : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('885d8685-7247-4b70-9c0e-c24e9cc4ee8e')};
+    Zone7_Out : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('074fe3ec-e017-405a-9679-dcaafcff9071')};
+    LightSwitch : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('68086f46-a078-4abe-929c-5a8d41a7da50')};
+    Zone1_Button : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('d87bd8e4-8cb5-4127-a9cd-705b8da54433')};
+    Zone2_Button : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('487ebf24-06dc-4440-9328-fbd34294a128')};
+    Zone3_Button : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('f191fbac-35f9-4b1b-a1b4-414e268f7c5e')};
+    Zone4_Button : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('7cdc961c-6062-4f94-9e74-79947435d4f8')};
+    Zone5_Button : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('3f712043-e363-40d5-9dd0-9067b81c3cf5')};
+    Zone6_Button : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('f3fbf40b-5f4f-4b63-ace6-643679d2dd0f')};
+    Zone7_Button : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('b7e4de5f-9f1a-4692-a5cd-75576130091e')};
+    Woop_Woop_Button : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('4937ad00-3aed-4185-b1c2-f6f176167efd')};
+END_VAR

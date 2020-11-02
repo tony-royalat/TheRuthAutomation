@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Metadata>
+   <FolderType>PouFolder</FolderType>
+   <ContentType>Function</ContentType>
+   <Kind>Function</Kind>
+   <ReturnType>BOOL</ReturnType>
+   <Id>2d879e47-4f68-4528-8e3d-3585ae3e2640</Id>
+   <ItemGroup>
+      <VariableWorksheet>
+         <Id>65ee1929-ca40-41bf-91ab-a98333bda7eb</Id>
+      </VariableWorksheet>
+      <CodeWorksheet Include="Code.st">
+         <Id>ac2e7294-0396-4bd3-b19e-e833990510a3</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>0</ParentIndex>
+      </CodeWorksheet>
+   </ItemGroup>
+</Metadata>

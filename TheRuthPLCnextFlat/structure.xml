@@ -143,6 +143,18 @@
         <file name="Source" id="led-parking-g~Source~0000" />
         <file name="Thumbnail" id="led-parkin~Thumbnail~0000" />
       </folder>
+      <folder name="NewFunction.pou" />
+      <folder name="LightSwitchControl.pou" />
+      <folder name="NewProgram.pou" />
+      <folder name="LightSwitchMonitoring.pou">
+        <file name="Code.st" id="LightSwitchMoni~Code~0000.st" />
+        <file name="Metadata.meta" id="LightSwitch~Metadata~0001.meta" />
+        <file name="Variables.var" id="LightSwitc~Variables~0001.var" />
+        <file name="VersionHistory.usermeta" id="LightSwit~VersionHis~0001.usermeta" />
+        <file name="Description.html" id="LightSwit~Descriptio~0002.html" />
+        <file name="Description.rtf" id="LightSwit~Descriptio~0003.rtf" />
+        <file name="Variables.var.locres" id="LightSwit~Variables.~0000.locres" />
+      </folder>
     </folder>
     <folder name="RecycleBin">
       <folder name="548d5c3f-e9e8-48c0-bb95-5180309b4ed1">
@@ -215,6 +227,17 @@
               <file name="a876b27f-5ef3-4949-986a-e57ec307b15b.ds" id="DI8_DO8~a876b27f-5ef~0001.ds" />
             </folder>
           </folder>
+        </folder>
+      </folder>
+      <folder name="2d879e47-4f68-4528-8e3d-3585ae3e2640">
+        <file name="2d879e47-4f68-4528-8e3d-3585ae3e2640" id="2d879e47-~2d879e47-4~0000" />
+        <folder name="LightSwitchControl.pou">
+          <file name="Metadata.meta" id="LightSwitch~Metadata~0000.meta" />
+          <file name="Variables.var" id="LightSwitc~Variables~0000.var" />
+          <file name="VersionHistory.usermeta" id="LightSwit~VersionHis~0000.usermeta" />
+          <file name="Description.rtf" id="LightSwit~Descriptio~0000.rtf" />
+          <file name="Code.st" id="LightSwitchCont~Code~0000.st" />
+          <file name="Description.html" id="LightSwit~Descriptio~0001.html" />
         </folder>
       </folder>
     </folder>

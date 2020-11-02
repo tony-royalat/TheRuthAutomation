@@ -148,6 +148,24 @@
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName" />
       </Role>
     </Datum>
+    <Datum Uuid="56527764-bfa0-4762-912c-4423764eac13">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="ca1fc5d2-ae61-4085-9144-ae3dbdf16b03" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
+        <Name>Zone8</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>The Ruth Automation Controller / PLC.Zone8</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+    </Datum>
     <Datum Uuid="892c73bd-e594-48b2-b9a3-a29b7de47b19">
       <FunctionText />
       <Role TypeName="ProcessDatum" ObjectIndex="3" ObjectId="/PDList/PD[@uid=io1]" SourceId="8bf93a00-8717-4ef9-b880-668a219b9f4f">
@@ -301,8 +319,8 @@
         <InputFrameId>2</InputFrameId>
         <OutputFrameId>3</OutputFrameId>
       </Role>
-      <Role TypeName="Variable" ObjectId="0be8e67b-0a74-4cc6-858a-e79c59f44426" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
-        <Name>Zone1</Name>
+      <Role TypeName="Variable" ObjectId="769e47fa-3205-4230-a6cf-35ef0dd76d82" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
+        <Name>Zone1_Out</Name>
         <Usage>Global</Usage>
         <DataType>BOOL</DataType>
         <Address />
@@ -313,14 +331,8 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>The Ruth Automation Controller / PLC.Zone1</DisplayName>
+        <DisplayName>The Ruth Automation Controller / PLC.Zone1_Out</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
-      </Role>
-      <Role TypeName="HmiTag" ObjectId="6301706d-edae-49d9-80a0-c062989d37dd" SourceId="">
-        <IsReadOnly>False</IsReadOnly>
-        <DisplayName>Zone1</DisplayName>
-        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
-        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
       </Role>
     </Datum>
     <Datum Uuid="45347044-77eb-432a-9a90-94e884d25423">
@@ -336,8 +348,8 @@
         <InputFrameId>2</InputFrameId>
         <OutputFrameId>3</OutputFrameId>
       </Role>
-      <Role TypeName="Variable" ObjectId="b4795d88-2683-46e3-8c3b-e92ac72878ea" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
-        <Name>Zone2</Name>
+      <Role TypeName="Variable" ObjectId="4d48f2fa-e740-4d9d-a4b5-8fb41debcbd4" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
+        <Name>Zone2_Out</Name>
         <Usage>Global</Usage>
         <DataType>BOOL</DataType>
         <Address />
@@ -348,14 +360,8 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>The Ruth Automation Controller / PLC.Zone2</DisplayName>
+        <DisplayName>The Ruth Automation Controller / PLC.Zone2_Out</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
-      </Role>
-      <Role TypeName="HmiTag" ObjectId="20b91181-c204-45b5-8170-aa956e6f1a72" SourceId="">
-        <IsReadOnly>False</IsReadOnly>
-        <DisplayName>Zone2</DisplayName>
-        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
-        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
       </Role>
     </Datum>
     <Datum Uuid="985e93e1-4d07-4d5c-86ba-9f9521bb90d1">
@@ -371,8 +377,8 @@
         <InputFrameId>2</InputFrameId>
         <OutputFrameId>3</OutputFrameId>
       </Role>
-      <Role TypeName="Variable" ObjectId="daba7d14-680a-4ec7-a7b1-3555af2e4e41" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
-        <Name>Zone3</Name>
+      <Role TypeName="Variable" ObjectId="d24646e3-8253-4616-90b2-de4b1632896a" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
+        <Name>Zone3_Out</Name>
         <Usage>Global</Usage>
         <DataType>BOOL</DataType>
         <Address />
@@ -383,14 +389,8 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>The Ruth Automation Controller / PLC.Zone3</DisplayName>
+        <DisplayName>The Ruth Automation Controller / PLC.Zone3_Out</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
-      </Role>
-      <Role TypeName="HmiTag" ObjectId="34f0b407-dd68-466e-963c-81cf40e98ec4" SourceId="">
-        <IsReadOnly>False</IsReadOnly>
-        <DisplayName>Zone3</DisplayName>
-        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
-        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
       </Role>
     </Datum>
     <Datum Uuid="38f91019-fef0-427d-bc2a-9e7c4b51a69f">
@@ -406,8 +406,8 @@
         <InputFrameId>2</InputFrameId>
         <OutputFrameId>3</OutputFrameId>
       </Role>
-      <Role TypeName="Variable" ObjectId="eb2977ff-1a27-4cce-b1f0-4ebad93c7947" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
-        <Name>Zone4</Name>
+      <Role TypeName="Variable" ObjectId="fe09e615-c57c-424b-ab72-5f6f7a58b152" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
+        <Name>Zone4_Out</Name>
         <Usage>Global</Usage>
         <DataType>BOOL</DataType>
         <Address />
@@ -418,14 +418,8 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>The Ruth Automation Controller / PLC.Zone4</DisplayName>
+        <DisplayName>The Ruth Automation Controller / PLC.Zone4_Out</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
-      </Role>
-      <Role TypeName="HmiTag" ObjectId="9f554384-7a54-4853-ad16-f0cbdc1e9bf7" SourceId="">
-        <IsReadOnly>False</IsReadOnly>
-        <DisplayName>Zone4</DisplayName>
-        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
-        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
       </Role>
     </Datum>
     <Datum Uuid="775e41a0-6d7a-442a-bfbd-166aeb9cd8cf">
@@ -441,8 +435,8 @@
         <InputFrameId>2</InputFrameId>
         <OutputFrameId>3</OutputFrameId>
       </Role>
-      <Role TypeName="Variable" ObjectId="c209e488-d1b2-4287-bd3b-22572ad5056f" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
-        <Name>Zone5</Name>
+      <Role TypeName="Variable" ObjectId="094c7a46-8ea6-4d2c-b50e-75c47d13ecf7" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
+        <Name>Zone5_Out</Name>
         <Usage>Global</Usage>
         <DataType>BOOL</DataType>
         <Address />
@@ -453,14 +447,8 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>The Ruth Automation Controller / PLC.Zone5</DisplayName>
+        <DisplayName>The Ruth Automation Controller / PLC.Zone5_Out</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
-      </Role>
-      <Role TypeName="HmiTag" ObjectId="b6de55a3-ec29-44e6-9a1f-8c95963f680a" SourceId="">
-        <IsReadOnly>False</IsReadOnly>
-        <DisplayName>Zone5</DisplayName>
-        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
-        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
       </Role>
     </Datum>
     <Datum Uuid="c7776c68-0532-4ef3-9367-e8b816a45094">
@@ -476,8 +464,8 @@
         <InputFrameId>2</InputFrameId>
         <OutputFrameId>3</OutputFrameId>
       </Role>
-      <Role TypeName="Variable" ObjectId="1b132d2f-5be0-433c-8b66-83d8dd6238d3" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
-        <Name>Zone6</Name>
+      <Role TypeName="Variable" ObjectId="071bca9d-9e00-4f50-9f4d-c7e8a21f2ff1" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
+        <Name>Zone6_Out</Name>
         <Usage>Global</Usage>
         <DataType>BOOL</DataType>
         <Address />
@@ -488,14 +476,8 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>The Ruth Automation Controller / PLC.Zone6</DisplayName>
+        <DisplayName>The Ruth Automation Controller / PLC.Zone6_Out</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
-      </Role>
-      <Role TypeName="HmiTag" ObjectId="40a6811b-5840-4536-8687-311d7feb3a1e" SourceId="">
-        <IsReadOnly>False</IsReadOnly>
-        <DisplayName>Zone6</DisplayName>
-        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
-        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
       </Role>
     </Datum>
     <Datum Uuid="23f1cc2b-157b-480f-a88f-a5be4d824ff3">
@@ -511,8 +493,8 @@
         <InputFrameId>2</InputFrameId>
         <OutputFrameId>3</OutputFrameId>
       </Role>
-      <Role TypeName="Variable" ObjectId="662a4062-e4d5-41be-9564-46a03cf2a7b9" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
-        <Name>Zone7</Name>
+      <Role TypeName="Variable" ObjectId="aa3b027f-e3e5-441d-a1fd-13de97811b56" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
+        <Name>Zone7_Out</Name>
         <Usage>Global</Usage>
         <DataType>BOOL</DataType>
         <Address />
@@ -523,14 +505,8 @@
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>The Ruth Automation Controller / PLC.Zone7</DisplayName>
+        <DisplayName>The Ruth Automation Controller / PLC.Zone7_Out</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
-      </Role>
-      <Role TypeName="HmiTag" ObjectId="8e3b3698-0934-4a36-a946-5e73cf2f18e2" SourceId="">
-        <IsReadOnly>False</IsReadOnly>
-        <DisplayName>Zone7</DisplayName>
-        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
-        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
       </Role>
     </Datum>
     <Datum Uuid="e1c0f519-da91-49fc-a288-b1cd993e9f36">
@@ -546,24 +522,24 @@
         <InputFrameId>2</InputFrameId>
         <OutputFrameId>3</OutputFrameId>
       </Role>
-      <Role TypeName="Variable" ObjectId="ca1fc5d2-ae61-4085-9144-ae3dbdf16b03" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
-        <Name>Zone8</Name>
+      <Role TypeName="Variable" ObjectId="ed347155-ebfc-4111-8aa8-765eefbf2edf" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
+        <Name>Woop_Woop_Button</Name>
         <Usage>Global</Usage>
         <DataType>BOOL</DataType>
         <Address />
         <InitValue>FALSE</InitValue>
-        <IsRetain>False</IsRetain>
+        <IsRetain>True</IsRetain>
         <IsConstant>False</IsConstant>
         <IsOpc>False</IsOpc>
         <IsHmi>False</IsHmi>
         <IsProficloud>False</IsProficloud>
         <Comment />
-        <DisplayName>The Ruth Automation Controller / PLC.Zone8</DisplayName>
+        <DisplayName>The Ruth Automation Controller / PLC.Woop_Woop_Button</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
       </Role>
-      <Role TypeName="HmiTag" ObjectId="df6ef67b-d5f4-4f17-8c95-680bae313bc3" SourceId="">
+      <Role TypeName="HmiTag" ObjectId="5be3e1be-5cfd-47e1-a00d-e0464fb2803d" SourceId="">
         <IsReadOnly>False</IsReadOnly>
-        <DisplayName>Zone8</DisplayName>
+        <DisplayName>Woop_Woop_Button</DisplayName>
         <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
       </Role>
@@ -2739,19 +2715,195 @@
         <DisplayName>The Ruth Automation Controller / dio-1 / IN07</DisplayName>
       </Role>
     </Datum>
+    <Datum Uuid="205b9573-7720-4e32-b9c5-dade5a1affe4">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="5a23a5ec-b384-40b3-9384-c71891aa4746" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
+        <Name>Zone1_Button</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>True</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>The Ruth Automation Controller / PLC.Zone1_Button</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="0afd9d97-497d-481c-9276-35da2917d39b" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>Zone1_Button</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="aaeaf1e5-5dd0-4451-9095-71ce56a0782e">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="555cac1d-681d-4013-814c-32b8d9781472" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
+        <Name>Zone2_Button</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>True</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>The Ruth Automation Controller / PLC.Zone2_Button</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="89854a25-f6c2-45f0-9aa3-30da598bc94f" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>Zone2_Button</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="e615bf48-2aec-4101-9150-931a50a0c740">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="f4bd77a7-c21c-4f8c-b10a-625b5f20618d" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
+        <Name>Zone3_Button</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>True</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>The Ruth Automation Controller / PLC.Zone3_Button</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="03bd310b-59c2-476d-a145-73d34aa2c9c0" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>Zone3_Button</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="71f646b7-fbd8-4087-b6b9-7eaf5d57b8aa">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="b2fd52b7-a4b8-4ef2-ae70-44c1b73a996f" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
+        <Name>Zone5_Button</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>True</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>The Ruth Automation Controller / PLC.Zone5_Button</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="4a7fb521-69d1-47b9-8da5-a26af9c0115c" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>Zone5_Button</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="0250d4dc-e7a2-4505-bbe7-823dc5c253a3">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="adf09222-fbf7-4b9a-abdb-26b84ecfba47" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
+        <Name>Zone6_Button</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>True</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>The Ruth Automation Controller / PLC.Zone6_Button</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="d9e98933-1db6-4c88-a2bf-94e1c233421b" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>Zone6_Button</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="1cf2dec3-1262-472e-9178-9debfd0cb9fa">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="c5e90134-e543-4003-ba4a-57fd2a261d1c" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
+        <Name>Zone7_Button</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>True</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>The Ruth Automation Controller / PLC.Zone7_Button</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="0f76a1be-f356-4e58-904b-7f9420a147f3" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>Zone7_Button</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="a0919655-adf4-40bc-98d7-c708ad54e98d">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="ed472f64-120e-4687-9485-1276f5cb73cd" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
+        <Name>Zone4_Button</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>True</IsRetain>
+        <IsConstant>False</IsConstant>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>The Ruth Automation Controller / PLC.Zone4_Button</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="f83f6b0a-339e-4d31-8b38-cb4375b26592" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <DisplayName>Zone4_Button</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName,IsReadOnly" />
+      </Role>
+    </Datum>
     <RoleGroupList RoleTypeName="Variable">
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154" ObjectId="fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24" DisplayName="Default" IsReadOnly="False">
-        <RoleDatumUuid>88854d36-4fc8-426c-8e5e-834969063ddc</RoleDatumUuid>
-        <RoleDatumUuid>45347044-77eb-432a-9a90-94e884d25423</RoleDatumUuid>
-        <RoleDatumUuid>985e93e1-4d07-4d5c-86ba-9f9521bb90d1</RoleDatumUuid>
-        <RoleDatumUuid>38f91019-fef0-427d-bc2a-9e7c4b51a69f</RoleDatumUuid>
-        <RoleDatumUuid>775e41a0-6d7a-442a-bfbd-166aeb9cd8cf</RoleDatumUuid>
-        <RoleDatumUuid>c7776c68-0532-4ef3-9367-e8b816a45094</RoleDatumUuid>
-        <RoleDatumUuid>23f1cc2b-157b-480f-a88f-a5be4d824ff3</RoleDatumUuid>
-        <RoleDatumUuid>e1c0f519-da91-49fc-a288-b1cd993e9f36</RoleDatumUuid>
+        <RoleDatumUuid>56527764-bfa0-4762-912c-4423764eac13</RoleDatumUuid>
         <RoleDatumUuid>892c73bd-e594-48b2-b9a3-a29b7de47b19</RoleDatumUuid>
         <RoleDatumUuid>5fa3fbce-6a71-4e11-bb98-0b0028f54a00</RoleDatumUuid>
         <RoleDatumUuid>5b0c955f-6d33-48d5-a71e-38a676ec0bc7</RoleDatumUuid>
+        <RoleDatumUuid>88854d36-4fc8-426c-8e5e-834969063ddc</RoleDatumUuid>
+        <RoleDatumUuid>45347044-77eb-432a-9a90-94e884d25423</RoleDatumUuid>
+        <RoleDatumUuid>985e93e1-4d07-4d5c-86ba-9f9521bb90d1</RoleDatumUuid>
+        <RoleDatumUuid>775e41a0-6d7a-442a-bfbd-166aeb9cd8cf</RoleDatumUuid>
+        <RoleDatumUuid>38f91019-fef0-427d-bc2a-9e7c4b51a69f</RoleDatumUuid>
+        <RoleDatumUuid>c7776c68-0532-4ef3-9367-e8b816a45094</RoleDatumUuid>
+        <RoleDatumUuid>23f1cc2b-157b-480f-a88f-a5be4d824ff3</RoleDatumUuid>
+        <RoleDatumUuid>205b9573-7720-4e32-b9c5-dade5a1affe4</RoleDatumUuid>
+        <RoleDatumUuid>aaeaf1e5-5dd0-4451-9095-71ce56a0782e</RoleDatumUuid>
+        <RoleDatumUuid>e615bf48-2aec-4101-9150-931a50a0c740</RoleDatumUuid>
+        <RoleDatumUuid>71f646b7-fbd8-4087-b6b9-7eaf5d57b8aa</RoleDatumUuid>
+        <RoleDatumUuid>0250d4dc-e7a2-4505-bbe7-823dc5c253a3</RoleDatumUuid>
+        <RoleDatumUuid>1cf2dec3-1262-472e-9178-9debfd0cb9fa</RoleDatumUuid>
+        <RoleDatumUuid>e1c0f519-da91-49fc-a288-b1cd993e9f36</RoleDatumUuid>
+        <RoleDatumUuid>a0919655-adf4-40bc-98d7-c708ad54e98d</RoleDatumUuid>
       </RoleGroup>
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154" ObjectId="971398c9-e054-4349-a1d9-e00a1840c9f4" DisplayName="System Variables" IsReadOnly="True">
         <RoleDatumUuid>7f8482ec-6ab5-4357-8946-08a697dba884</RoleDatumUuid>

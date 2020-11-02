@@ -25,9 +25,6 @@
   <Resources ID="f9315d9f-39bd-44f7-9c3a-7d07334136e3" Name="Text_CarPresent.Text">
     <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Car Present" />
   </Resources>
-  <Resources ID="2af20108-d861-46f3-8850-1e0834899eba" Name="Text_LightsOn.Text">
-    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Light Switch" />
-  </Resources>
   <Resources ID="49b637fe-f98a-4bbd-89ab-4c848791ce2f" Name="Text_GarageDoor.Text">
     <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Garage Door Closed" />
   </Resources>
@@ -36,5 +33,8 @@
   </Resources>
   <Resources ID="8f88fd21-0531-491e-bb98-fe515cc5461b" Name="Button_FlashyFlash.Text">
     <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Woop Woop" />
+  </Resources>
+  <Resources ID="0c082e24-c4e8-4664-8470-db1bcf8b3e42" Name="Text_LightsOn.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Light Switch" />
   </Resources>
 </ResourcesDocument>

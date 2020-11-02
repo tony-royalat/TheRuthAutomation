@@ -1,16 +1,7 @@
 { CustomGroupDefinition('6d89ea51-80bf-4b89-805c-5d22adc78e3f', '') }
 
 VAR_EXTERNAL
-    Zone1 : BOOL { CustomGroupReference('6d89ea51-80bf-4b89-805c-5d22adc78e3f') } {Id('43aec1f5-7895-4c25-b83b-86b2b6bf2277')};
-    Zone2 : BOOL { CustomGroupReference('6d89ea51-80bf-4b89-805c-5d22adc78e3f') } {Id('b2a963f0-fbec-4e78-b96f-a84956d5fbf5')};
-    Zone3 : BOOL { CustomGroupReference('6d89ea51-80bf-4b89-805c-5d22adc78e3f') } {Id('ee0f4e6e-2f4c-4515-b231-b60b2f8a9b36')};
-    Zone4 : BOOL { CustomGroupReference('6d89ea51-80bf-4b89-805c-5d22adc78e3f') } {Id('6f733352-4f5e-45c9-84b3-65a2e0bad728')};
-    Zone5 : BOOL { CustomGroupReference('6d89ea51-80bf-4b89-805c-5d22adc78e3f') } {Id('a96e0890-1e68-43c8-9960-e7af9b388f01')};
-    Zone6 : BOOL { CustomGroupReference('6d89ea51-80bf-4b89-805c-5d22adc78e3f') } {Id('d441f50b-efe1-4867-84ef-af6b555b756c')};
-    Zone7 : BOOL { CustomGroupReference('6d89ea51-80bf-4b89-805c-5d22adc78e3f') } {Id('5492a411-70a0-4bef-bf70-fd4064e18e94')};
-    Zone8 : BOOL { CustomGroupReference('6d89ea51-80bf-4b89-805c-5d22adc78e3f') } {Id('9f168c20-05fc-4121-b0c9-94a902d3871c')};
     CarPresent : BOOL { CustomGroupReference('6d89ea51-80bf-4b89-805c-5d22adc78e3f') } {Id('ea6baf06-8380-4882-91a9-dacda7fe37d9')};
-    LightSwitch : BOOL { CustomGroupReference('6d89ea51-80bf-4b89-805c-5d22adc78e3f') } {Id('74250151-13e6-4ce9-bfd6-d8dad19952e4')};
 END_VAR
 
 VAR

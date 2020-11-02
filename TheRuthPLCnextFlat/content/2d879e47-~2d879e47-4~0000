@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RestoreDataItem Version="1" DeletionDate="2020-10-30 20:17:57Z" DisplayName="LightSwitchControl">
+    <NodeData DomainId="e639c0f9-db09-46f4-abf7-50216a13f220" SolutionId="606e2993-1c57-411c-b0d2-c57a13c52bbf" NodeId="2d879e47-4f68-4528-8e3d-3585ae3e2640" ParentId="d31eab2b-b1a0-4c93-bdaf-090bc38c49f4" PredecessorId="4224b8c2-eee1-4f87-b156-45ed14ae9389" Position="10" Kind="Type" />
+</RestoreDataItem>
