@@ -1,11 +1,23 @@
+// Call timer functions
+Zone1_Timer();
+Zone2_Timer();
+Zone3_Timer();
+Zone4_Timer();
+Zone5_Timer();
+Zone6_Timer();
+Zone7_Timer();
+
+// Set master time delay
+Time_Delay := t#250ms;
+
 // Set time delay for light zones
 Zone1_Timer.PT := t#0ms;
-Zone2_Timer.PT := t#250ms;
-Zone3_Timer.PT := t#500ms;
-Zone4_Timer.PT := t#750ms;
-Zone5_Timer.PT := t#1000ms;
-Zone6_Timer.PT := t#1250ms;
-Zone7_Timer.PT := t#1500ms;
+Zone2_Timer.PT := Zone1_Timer.PT + Time_Delay;
+Zone3_Timer.PT := Zone2_Timer.PT + Time_Delay;
+Zone4_Timer.PT := Zone3_Timer.PT + Time_Delay;
+Zone5_Timer.PT := Zone4_Timer.PT + Time_Delay;
+Zone6_Timer.PT := Zone5_Timer.PT + Time_Delay;
+Zone7_Timer.PT := Zone6_Timer.PT + Time_Delay;
 
 // Set lights based on light switch and zone buttons
 IF LightSwitch = TRUE THEN

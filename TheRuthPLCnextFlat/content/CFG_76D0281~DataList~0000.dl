@@ -148,24 +148,6 @@
         <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="DisplayName" />
       </Role>
     </Datum>
-    <Datum Uuid="56527764-bfa0-4762-912c-4423764eac13">
-      <FunctionText />
-      <Role TypeName="Variable" ObjectId="ca1fc5d2-ae61-4085-9144-ae3dbdf16b03" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154">
-        <Name>Zone8</Name>
-        <Usage>Global</Usage>
-        <DataType>BOOL</DataType>
-        <Address />
-        <InitValue>FALSE</InitValue>
-        <IsRetain>False</IsRetain>
-        <IsConstant>False</IsConstant>
-        <IsOpc>False</IsOpc>
-        <IsHmi>False</IsHmi>
-        <IsProficloud>False</IsProficloud>
-        <Comment />
-        <DisplayName>The Ruth Automation Controller / PLC.Zone8</DisplayName>
-        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud" />
-      </Role>
-    </Datum>
     <Datum Uuid="892c73bd-e594-48b2-b9a3-a29b7de47b19">
       <FunctionText />
       <Role TypeName="ProcessDatum" ObjectIndex="3" ObjectId="/PDList/PD[@uid=io1]" SourceId="8bf93a00-8717-4ef9-b880-668a219b9f4f">
@@ -2885,7 +2867,6 @@
     </Datum>
     <RoleGroupList RoleTypeName="Variable">
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/5fda287b-0f42-4cd2-acf1-feb607546154" ObjectId="fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24" DisplayName="Default" IsReadOnly="False">
-        <RoleDatumUuid>56527764-bfa0-4762-912c-4423764eac13</RoleDatumUuid>
         <RoleDatumUuid>892c73bd-e594-48b2-b9a3-a29b7de47b19</RoleDatumUuid>
         <RoleDatumUuid>5fa3fbce-6a71-4e11-bb98-0b0028f54a00</RoleDatumUuid>
         <RoleDatumUuid>5b0c955f-6d33-48d5-a71e-38a676ec0bc7</RoleDatumUuid>

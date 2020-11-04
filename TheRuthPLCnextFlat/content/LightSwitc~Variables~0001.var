@@ -27,4 +27,5 @@ VAR
     Zone5_Timer : TON { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('9dd49552-98b2-4183-ab71-236fc976bdcd')};
     Zone6_Timer : TON { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('81a85c8f-e0ae-48c2-ab01-62ef9dd64c19')};
     Zone7_Timer : TON { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('f2b63618-f971-4379-9280-07e5df9de347')};
+    Time_Delay : TIME { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('9f60329e-3801-4025-82c1-4084d6ebc83f')};
 END_VAR
