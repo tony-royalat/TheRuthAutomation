@@ -1126,12 +1126,12 @@
          <ParentIndex>2</ParentIndex>
       </LocalResources>
       <LocalResources Include="Logical Elements\Main.pou\Variables.var.locres">
-         <Id>c3870060-b66b-4bb5-aecd-d183c6af7fa0</Id>
+         <Id>02258aea-2941-44fb-a731-1e815b4b3eb9</Id>
          <Visible>False</Visible>
          <ParentIndex>6</ParentIndex>
       </LocalResources>
       <LocalResources Include="Logical Elements\LightSwitchMonitoring.pou\Variables.var.locres">
-         <Id>bcd4a261-90ef-4dc0-b74e-68c0a24f2ac5</Id>
+         <Id>e7de4deb-7365-4232-a4b8-bd206e03d285</Id>
          <Visible>False</Visible>
          <ParentIndex>6</ParentIndex>
       </LocalResources>

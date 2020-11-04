@@ -18,3 +18,13 @@ VAR_EXTERNAL
     Zone7_Button : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('b7e4de5f-9f1a-4692-a5cd-75576130091e')};
     Woop_Woop_Button : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('4937ad00-3aed-4185-b1c2-f6f176167efd')};
 END_VAR
+
+VAR
+    Zone1_Timer : TON { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('40a86a67-a2ab-4cf8-9346-9bb063b252fd')};
+    Zone2_Timer : TON { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('4e60a4e4-a4c0-47a8-a7e1-eda1b6b969ab')};
+    Zone3_Timer : TON { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('deb372b1-a43d-439d-91f4-a510effebdd2')};
+    Zone4_Timer : TON { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('f583413f-887c-4824-a40d-da2477543ae1')};
+    Zone5_Timer : TON { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('9dd49552-98b2-4183-ab71-236fc976bdcd')};
+    Zone6_Timer : TON { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('81a85c8f-e0ae-48c2-ab01-62ef9dd64c19')};
+    Zone7_Timer : TON { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('f2b63618-f971-4379-9280-07e5df9de347')};
+END_VAR
