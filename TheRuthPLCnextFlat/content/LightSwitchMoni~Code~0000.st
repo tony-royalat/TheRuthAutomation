@@ -11,7 +11,7 @@ Zone7_Timer();
 Time_Delay := t#250ms;
 
 // Set time delay for light zones
-Zone1_Timer.PT := t#0ms;
+Zone1_Timer.PT := Time_Delay;
 Zone2_Timer.PT := Zone1_Timer.PT + Time_Delay;
 Zone3_Timer.PT := Zone2_Timer.PT + Time_Delay;
 Zone4_Timer.PT := Zone3_Timer.PT + Time_Delay;
