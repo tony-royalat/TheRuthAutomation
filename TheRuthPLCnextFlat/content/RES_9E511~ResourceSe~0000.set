@@ -29,6 +29,7 @@ TASK Cyclic50 (INTERVAL := T#50ms, PRIORITY := 0) { Watchdog(T#100ms), Id('80fe1
 
 PROGRAM MainInstance WITH Cyclic50 : Main { Id('5195a45c-21bf-424e-b59a-a4523b20422d') };
 
-PROGRAM LightSwitchInstance WITH Cyclic50 : LightSwitchMonitoring { Id('03707405-8f8b-4c78-bed6-509259c5f4de') };
+END_RESOURCE
+witchInstance WITH Cyclic50 : LightSwitchMonitoring { Id('03707405-8f8b-4c78-bed6-509259c5f4de') };
 
 END_RESOURCE

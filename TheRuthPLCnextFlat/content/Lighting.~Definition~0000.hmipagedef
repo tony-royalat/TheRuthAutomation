@@ -713,24 +713,6 @@
             <X>0</X>
             <Y>0</Y>
           </TransformCenter>
-          <Dynamic xsi:type="FillDynamic" TargetProperty="Fill" Interpolate="false" Rate="None">
-            <VariableInstance>
-              <Id>473469be-4a4b-44df-b695-6870a1aeca41</Id>
-            </VariableInstance>
-            <Expression xsi:type="SimpleSTExpression">
-              <ExpressionLine>LightSwitch</ExpressionLine>
-            </Expression>
-            <ThresholdData>
-              <FillDynamicThresholdData Blink="false">
-                <Threshold xmlns:q27="http://www.w3.org/2001/XMLSchema" xsi:type="q27:int">0</Threshold>
-                <Value xsi:type="SolidFill" Color="#FF000000" />
-              </FillDynamicThresholdData>
-              <FillDynamicThresholdData Blink="false">
-                <Threshold xmlns:q28="http://www.w3.org/2001/XMLSchema" xsi:type="q28:int">1</Threshold>
-                <Value xsi:type="SolidFill" Color="#FFFFFFFF" />
-              </FillDynamicThresholdData>
-            </ThresholdData>
-          </Dynamic>
           <EnableSecurityScope>Always</EnableSecurityScope>
           <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
           <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
@@ -773,11 +755,11 @@
             </Expression>
             <ThresholdData>
               <FillDynamicThresholdData Blink="false">
-                <Threshold xmlns:q29="http://www.w3.org/2001/XMLSchema" xsi:type="q29:int">0</Threshold>
+                <Threshold xmlns:q27="http://www.w3.org/2001/XMLSchema" xsi:type="q27:int">0</Threshold>
                 <Value xsi:type="SolidFill" Color="#FF000000" />
               </FillDynamicThresholdData>
               <FillDynamicThresholdData Blink="false">
-                <Threshold xmlns:q30="http://www.w3.org/2001/XMLSchema" xsi:type="q30:int">1</Threshold>
+                <Threshold xmlns:q28="http://www.w3.org/2001/XMLSchema" xsi:type="q28:int">1</Threshold>
                 <Value xsi:type="SolidFill" Color="#FFFFFFFF" />
               </FillDynamicThresholdData>
             </ThresholdData>
@@ -1152,11 +1134,11 @@
             </Expression>
             <ThresholdData>
               <FillDynamicThresholdData Blink="false">
-                <Threshold xmlns:q31="http://www.w3.org/2001/XMLSchema" xsi:type="q31:int">0</Threshold>
+                <Threshold xmlns:q29="http://www.w3.org/2001/XMLSchema" xsi:type="q29:int">0</Threshold>
                 <Value xsi:type="SolidFill" Color="#FFECEDED" />
               </FillDynamicThresholdData>
               <FillDynamicThresholdData Blink="false">
-                <Threshold xmlns:q32="http://www.w3.org/2001/XMLSchema" xsi:type="q32:int">1</Threshold>
+                <Threshold xmlns:q30="http://www.w3.org/2001/XMLSchema" xsi:type="q30:int">1</Threshold>
                 <Value xsi:type="SolidFill" Color="#FF90EE90" />
               </FillDynamicThresholdData>
             </ThresholdData>
@@ -1228,11 +1210,11 @@
             </Expression>
             <ThresholdData>
               <FillDynamicThresholdData Blink="false">
-                <Threshold xmlns:q33="http://www.w3.org/2001/XMLSchema" xsi:type="q33:int">0</Threshold>
+                <Threshold xmlns:q31="http://www.w3.org/2001/XMLSchema" xsi:type="q31:int">0</Threshold>
                 <Value xsi:type="SolidFill" Color="#FFECEDED" />
               </FillDynamicThresholdData>
               <FillDynamicThresholdData Blink="false">
-                <Threshold xmlns:q34="http://www.w3.org/2001/XMLSchema" xsi:type="q34:int">1</Threshold>
+                <Threshold xmlns:q32="http://www.w3.org/2001/XMLSchema" xsi:type="q32:int">1</Threshold>
                 <Value xsi:type="SolidFill" Color="#FF90EE90" />
               </FillDynamicThresholdData>
             </ThresholdData>
@@ -1275,11 +1257,11 @@
             </Expression>
             <ThresholdData>
               <FillDynamicThresholdData Blink="false">
-                <Threshold xmlns:q35="http://www.w3.org/2001/XMLSchema" xsi:type="q35:int">0</Threshold>
+                <Threshold xmlns:q33="http://www.w3.org/2001/XMLSchema" xsi:type="q33:int">0</Threshold>
                 <Value xsi:type="SolidFill" Color="#FFECEDED" />
               </FillDynamicThresholdData>
               <FillDynamicThresholdData Blink="false">
-                <Threshold xmlns:q36="http://www.w3.org/2001/XMLSchema" xsi:type="q36:int">1</Threshold>
+                <Threshold xmlns:q34="http://www.w3.org/2001/XMLSchema" xsi:type="q34:int">1</Threshold>
                 <Value xsi:type="SolidFill" Color="#FF90EE90" />
               </FillDynamicThresholdData>
             </ThresholdData>

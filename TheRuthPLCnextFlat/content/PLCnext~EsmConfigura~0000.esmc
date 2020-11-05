@@ -8,7 +8,6 @@
 		<Task id="80fe1b50-48a7-4889-9525-c983595ca14a" name="Cyclic50" taskType="CyclicTask" priority="0" intervalTime="50000000" watchdogTime="100000000" executionTimeThreshold="0" coreAffinity="0" stackSize="0" taskBuffer="None" comment="" esmId="5e2cf6e8-29e9-4594-94ca-cf7644c35243" readonly="False">
 			<ProgramInstances>
 				<ProgramInstance id="5195a45c-21bf-424e-b59a-a4523b20422d" name="MainInstance" programType="Main" componentId="00000000-0000-0000-0000-000000000000" libraryName="Arp.Plc.Eclr" componentName="Arp.Plc.Eclr" componentType="EclrComponent" comment="" readonly="False" groupName="" />
-				<ProgramInstance id="03707405-8f8b-4c78-bed6-509259c5f4de" name="LightSwitchInstance" programType="LightSwitchMonitoring" componentId="00000000-0000-0000-0000-000000000000" libraryName="Arp.Plc.Eclr" componentName="Arp.Plc.Eclr" componentType="EclrComponent" comment="" readonly="False" groupName="" />
 			</ProgramInstances>
 		</Task>
 	</Tasks>

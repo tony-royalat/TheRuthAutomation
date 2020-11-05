@@ -28,4 +28,11 @@ VAR
     Zone6_Timer : TON { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('81a85c8f-e0ae-48c2-ab01-62ef9dd64c19')};
     Zone7_Timer : TON { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('f2b63618-f971-4379-9280-07e5df9de347')};
     Time_Delay : TIME { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('9f60329e-3801-4025-82c1-4084d6ebc83f')};
+    Delay_Timer : TON { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('0bdf3552-a6ab-4d69-b257-accd07c60ff1')};
+    SequenceAdvance1 : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('aa5b2dfd-802f-4568-a6ba-bdb3c523c6d3')};
+    SequenceAdvance2 : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('26b03722-f32d-4755-afe4-02c4a0ff0ff8')};
+    SequenceAdvance3 : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('bedc2bfc-435c-4c06-98a1-b3a58dd026e2')};
+    SequenceAdvance4 : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('17deb641-c474-41ff-a72c-313fc41c2355')};
+    SequenceAdvance5 : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('7c99aa92-a04c-4a7f-aae8-d9b987d47959')};
+    SequenceAdvance6 : BOOL { CustomGroupReference('6ef5c362-d2b3-4990-a0d1-a3364885e897') } {Id('64c0c1fa-cf88-4f8c-9ed3-dc2abfab3fb5')};
 END_VAR

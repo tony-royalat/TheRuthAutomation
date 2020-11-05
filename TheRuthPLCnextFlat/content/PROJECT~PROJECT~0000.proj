@@ -10,6 +10,12 @@
       </CockpitDocument>
    </ItemGroup>
    <ItemGroup>
+      <CodeWorksheet Include="RecycleBin\3ce1947b-d96a-453d-b660-0994700852f4\LightSwitchMonitoring.pou\Code.st">
+         <Id>bf239ea0-f06a-45a1-837d-24ac08ea301b</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>5</ParentIndex>
+      </CodeWorksheet>
       <CodeWorksheet Include="RecycleBin\2d879e47-4f68-4528-8e3d-3585ae3e2640\LightSwitchControl.pou\Code.st">
          <Id>ac2e7294-0396-4bd3-b19e-e833990510a3</Id>
          <Extension>.st</Extension>
@@ -18,12 +24,6 @@
       </CodeWorksheet>
       <CodeWorksheet Include="Logical Elements\Main.pou\Code.st">
          <Id>15c5b6e1-825a-4dc8-83ae-9375c98ff9d4</Id>
-         <Extension>.st</Extension>
-         <Type>.st</Type>
-         <ParentIndex>5</ParentIndex>
-      </CodeWorksheet>
-      <CodeWorksheet Include="Logical Elements\LightSwitchMonitoring.pou\Code.st">
-         <Id>bf239ea0-f06a-45a1-837d-24ac08ea301b</Id>
          <Extension>.st</Extension>
          <Type>.st</Type>
          <ParentIndex>5</ParentIndex>
@@ -330,15 +330,27 @@
       <Folder Include="RecycleBin">
          <Id>56cb4f17-e74e-476b-8ac1-2d8630cdb903</Id>
          <FolderType>RecycleBin</FolderType>
-         <LastestItemNo>5</LastestItemNo>
+         <LastestItemNo>6</LastestItemNo>
          <Visible>false</Visible>
          <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\3ce1947b-d96a-453d-b660-0994700852f4">
+         <Id>5c89bc59-ea47-4a0b-844f-8a06b93a3d3e</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>6</ItemNo>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\3ce1947b-d96a-453d-b660-0994700852f4\LightSwitchMonitoring.pou">
+         <Id>3ce1947b-d96a-453d-b660-0994700852f4</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>3ce1947b-d96a-453d-b660-0994700852f4</Id>
+         <ParentIndex>0</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\2d879e47-4f68-4528-8e3d-3585ae3e2640">
          <Id>c45ba249-d44b-4882-b6ae-0928acb868b3</Id>
          <FolderType>RecycleBinItem</FolderType>
          <ItemNo>5</ItemNo>
-         <ParentIndex>0</ParentIndex>
+         <ParentIndex>1</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\2d879e47-4f68-4528-8e3d-3585ae3e2640\LightSwitchControl.pou">
          <Id>2d879e47-4f68-4528-8e3d-3585ae3e2640</Id>
@@ -350,7 +362,7 @@
          <Id>e8a9c17a-1d5b-4046-928e-f4e5c83c28f0</Id>
          <FolderType>RecycleBinItem</FolderType>
          <ItemNo>4</ItemNo>
-         <ParentIndex>1</ParentIndex>
+         <ParentIndex>2</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\c84901e0-24de-44af-9ec2-21527ee5498c\AXL_F_BK_PN">
          <Id>c84901e0-24de-44af-9ec2-21527ee5498c</Id>
@@ -448,13 +460,13 @@
          <Id>68406014-b20c-464b-8b56-b39013915536</Id>
          <FolderType>RecycleBinItem</FolderType>
          <ItemNo>3</ItemNo>
-         <ParentIndex>2</ParentIndex>
+         <ParentIndex>3</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\548d5c3f-e9e8-48c0-bb95-5180309b4ed1">
          <Id>21b3aaf1-ace9-4e37-b856-d58df9c3a84c</Id>
          <FolderType>RecycleBinItem</FolderType>
          <ItemNo>1</ItemNo>
-         <ParentIndex>3</ParentIndex>
+         <ParentIndex>4</ParentIndex>
       </Folder>
       <Folder Include="RecycleBin\548d5c3f-e9e8-48c0-bb95-5180309b4ed1\AXC_F_1152">
          <Id>548d5c3f-e9e8-48c0-bb95-5180309b4ed1</Id>
@@ -668,12 +680,6 @@
          <FolderType>PouFolder</FolderType>
          <Id>54eb0048-b32c-47e0-869c-bd438932e930</Id>
          <ParentIndex>2</ParentIndex>
-      </Folder>
-      <Folder Include="Logical Elements\LightSwitchMonitoring.pou">
-         <Id>3ce1947b-d96a-453d-b660-0994700852f4</Id>
-         <FolderType>PouFolder</FolderType>
-         <Id>3ce1947b-d96a-453d-b660-0994700852f4</Id>
-         <ParentIndex>10</ParentIndex>
       </Folder>
    </ItemGroup>
    <ItemGroup>
@@ -1101,6 +1107,11 @@
       </IoConfigurationWorksheet>
    </ItemGroup>
    <ItemGroup>
+      <LocalResources Include="RecycleBin\3ce1947b-d96a-453d-b660-0994700852f4\LightSwitchMonitoring.pou\Variables.var.locres">
+         <Id>981dfa26-0e28-4f70-a644-752c88dd6b0b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResources>
       <LocalResources Include="RecycleBin\4ada6b10-6a1f-40cf-afdd-23d59441eb90\Login.hmi\Resources.locres">
          <Id>0494d818-6044-4199-9ad5-68f3bfe54dba</Id>
          <Visible>False</Visible>
@@ -1126,12 +1137,7 @@
          <ParentIndex>2</ParentIndex>
       </LocalResources>
       <LocalResources Include="Logical Elements\Main.pou\Variables.var.locres">
-         <Id>d1fbabb7-84fe-412a-9126-c045eced7921</Id>
-         <Visible>False</Visible>
-         <ParentIndex>6</ParentIndex>
-      </LocalResources>
-      <LocalResources Include="Logical Elements\LightSwitchMonitoring.pou\Variables.var.locres">
-         <Id>981dfa26-0e28-4f70-a644-752c88dd6b0b</Id>
+         <Id>a8133226-6655-40f2-8d4a-ca2f42a111da</Id>
          <Visible>False</Visible>
          <ParentIndex>6</ParentIndex>
       </LocalResources>
@@ -1164,6 +1170,11 @@
       </MetaComponent>
    </ItemGroup>
    <ItemGroup>
+      <MetadataDocument Include="RecycleBin\3ce1947b-d96a-453d-b660-0994700852f4\LightSwitchMonitoring.pou\Metadata.meta">
+         <Id>7d67474a-e0ae-46dc-9ce9-b9ac96d07b85</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
       <MetadataDocument Include="RecycleBin\2d879e47-4f68-4528-8e3d-3585ae3e2640\LightSwitchControl.pou\Metadata.meta">
          <Id>a4860179-4e01-48f5-8b30-053c662419c4</Id>
          <Extension>.meta</Extension>
@@ -1171,11 +1182,6 @@
       </MetadataDocument>
       <MetadataDocument Include="Logical Elements\Main.pou\Metadata.meta">
          <Id>b70db853-a360-41f2-a3b6-13340710d6c8</Id>
-         <Extension>.meta</Extension>
-         <ParentIndex>0</ParentIndex>
-      </MetadataDocument>
-      <MetadataDocument Include="Logical Elements\LightSwitchMonitoring.pou\Metadata.meta">
-         <Id>7d67474a-e0ae-46dc-9ce9-b9ac96d07b85</Id>
          <Extension>.meta</Extension>
          <ParentIndex>0</ParentIndex>
       </MetadataDocument>
@@ -1335,6 +1341,10 @@
       </ResourceSettings>
    </ItemGroup>
    <ItemGroup>
+      <RestoreDocument Include="RecycleBin\3ce1947b-d96a-453d-b660-0994700852f4\3ce1947b-d96a-453d-b660-0994700852f4">
+         <Id>01d66036-1459-4875-81c1-09c2637c0341</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
       <RestoreDocument Include="RecycleBin\2d879e47-4f68-4528-8e3d-3585ae3e2640\2d879e47-4f68-4528-8e3d-3585ae3e2640">
          <Id>a54f2699-f035-4cbf-ae44-565f02480371</Id>
          <ParentIndex>1</ParentIndex>
@@ -1420,6 +1430,11 @@
       </TransportDeviceListDocument>
    </ItemGroup>
    <ItemGroup>
+      <UserMetadata Include="RecycleBin\3ce1947b-d96a-453d-b660-0994700852f4\LightSwitchMonitoring.pou\VersionHistory.usermeta">
+         <Id>6cba57c3-83d7-45b6-b86e-11d8e914aed0</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
       <UserMetadata Include="RecycleBin\2d879e47-4f68-4528-8e3d-3585ae3e2640\LightSwitchControl.pou\VersionHistory.usermeta">
          <Id>bb8cfd50-3f8c-4e27-a40e-683f84a929fb</Id>
          <Extension>.usermeta</Extension>
@@ -1434,13 +1449,18 @@
          <Extension>.usermeta</Extension>
          <ParentIndex>2</ParentIndex>
       </UserMetadata>
-      <UserMetadata Include="Logical Elements\LightSwitchMonitoring.pou\VersionHistory.usermeta">
-         <Id>55af7302-b0af-4d2d-87ed-bc8e62abaa18</Id>
-         <Extension>.usermeta</Extension>
-         <ParentIndex>2</ParentIndex>
-      </UserMetadata>
    </ItemGroup>
    <ItemGroup>
+      <UserMetadataDescription Include="RecycleBin\3ce1947b-d96a-453d-b660-0994700852f4\LightSwitchMonitoring.pou\Description.html">
+         <Id>4788a900-9dce-4609-afcc-b1e36e7b4d75</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>3</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="RecycleBin\3ce1947b-d96a-453d-b660-0994700852f4\LightSwitchMonitoring.pou\Description.rtf">
+         <Id>000044ca-896a-41db-9ac2-f39bcdc3306f</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
       <UserMetadataDescription Include="RecycleBin\2d879e47-4f68-4528-8e3d-3585ae3e2640\LightSwitchControl.pou\Description.html">
          <Id>3a43b850-6267-48f9-a5af-1b908fdc73d2</Id>
          <Extension>.html</Extension>
@@ -1466,18 +1486,13 @@
          <Extension>.rtf</Extension>
          <ParentIndex>4</ParentIndex>
       </UserMetadataDescription>
-      <UserMetadataDescription Include="Logical Elements\LightSwitchMonitoring.pou\Description.html">
-         <Id>13b45cd9-012d-4217-9561-0979e0932303</Id>
-         <Extension>.html</Extension>
-         <ParentIndex>3</ParentIndex>
-      </UserMetadataDescription>
-      <UserMetadataDescription Include="Logical Elements\LightSwitchMonitoring.pou\Description.rtf">
-         <Id>039fab8a-87e2-4f6d-9d69-15034534c19c</Id>
-         <Extension>.rtf</Extension>
-         <ParentIndex>4</ParentIndex>
-      </UserMetadataDescription>
    </ItemGroup>
    <ItemGroup>
+      <VariableWorksheet Include="RecycleBin\3ce1947b-d96a-453d-b660-0994700852f4\LightSwitchMonitoring.pou\Variables.var">
+         <Id>5aa9e57a-b234-432d-a722-b96c4b6f4827</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
       <VariableWorksheet Include="RecycleBin\2d879e47-4f68-4528-8e3d-3585ae3e2640\LightSwitchControl.pou\Variables.var">
          <Id>65ee1929-ca40-41bf-91ab-a98333bda7eb</Id>
          <Extension>.var</Extension>
@@ -1491,11 +1506,6 @@
       </VariableWorksheet>
       <VariableWorksheet Include="Logical Elements\Main.pou\Variables.var">
          <Id>a418ac01-ac2e-4083-936a-29942961d3b8</Id>
-         <Extension>.var</Extension>
-         <ParentIndex>1</ParentIndex>
-      </VariableWorksheet>
-      <VariableWorksheet Include="Logical Elements\LightSwitchMonitoring.pou\Variables.var">
-         <Id>5aa9e57a-b234-432d-a722-b96c4b6f4827</Id>
          <Extension>.var</Extension>
          <ParentIndex>1</ParentIndex>
       </VariableWorksheet>

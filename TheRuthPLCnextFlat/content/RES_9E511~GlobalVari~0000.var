@@ -5,13 +5,6 @@ VAR_GLOBAL
     CarPresent : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('1eae1ff1-7bb5-4fab-af48-02e41c00fbd7')};
     LightSwitch : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('c6528d3a-db6a-46bb-93ca-2379dfb0696b')};
     GarageDoorClosed : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('96d6cb66-834c-45d5-937b-adc3c10c9e33')};
-    Zone1_Out : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('769e47fa-3205-4230-a6cf-35ef0dd76d82')};
-    Zone2_Out : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('4d48f2fa-e740-4d9d-a4b5-8fb41debcbd4')};
-    Zone3_Out : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('d24646e3-8253-4616-90b2-de4b1632896a')};
-    Zone5_Out : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('094c7a46-8ea6-4d2c-b50e-75c47d13ecf7')};
-    Zone4_Out : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('fe09e615-c57c-424b-ab72-5f6f7a58b152')};
-    Zone6_Out : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('071bca9d-9e00-4f50-9f4d-c7e8a21f2ff1')};
-    Zone7_Out : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('aa3b027f-e3e5-441d-a1fd-13de97811b56')};
 END_VAR
 
 VAR_GLOBAL RETAIN

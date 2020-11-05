@@ -146,15 +146,7 @@
       <folder name="NewFunction.pou" />
       <folder name="LightSwitchControl.pou" />
       <folder name="NewProgram.pou" />
-      <folder name="LightSwitchMonitoring.pou">
-        <file name="Code.st" id="LightSwitchMoni~Code~0000.st" />
-        <file name="Metadata.meta" id="LightSwitch~Metadata~0001.meta" />
-        <file name="Variables.var" id="LightSwitc~Variables~0001.var" />
-        <file name="VersionHistory.usermeta" id="LightSwit~VersionHis~0001.usermeta" />
-        <file name="Description.html" id="LightSwit~Descriptio~0002.html" />
-        <file name="Description.rtf" id="LightSwit~Descriptio~0003.rtf" />
-        <file name="Variables.var.locres" id="LightSwit~Variables.~0000.locres" />
-      </folder>
+      <folder name="LightSwitchMonitoring.pou" />
     </folder>
     <folder name="RecycleBin">
       <folder name="548d5c3f-e9e8-48c0-bb95-5180309b4ed1">
@@ -238,6 +230,18 @@
           <file name="Description.rtf" id="LightSwit~Descriptio~0000.rtf" />
           <file name="Code.st" id="LightSwitchCont~Code~0000.st" />
           <file name="Description.html" id="LightSwit~Descriptio~0001.html" />
+        </folder>
+      </folder>
+      <folder name="3ce1947b-d96a-453d-b660-0994700852f4">
+        <file name="3ce1947b-d96a-453d-b660-0994700852f4" id="3ce1947b-~3ce1947b-d~0000" />
+        <folder name="LightSwitchMonitoring.pou">
+          <file name="Metadata.meta" id="LightSwitch~Metadata~0002.meta" />
+          <file name="Variables.var" id="LightSwitc~Variables~0002.var" />
+          <file name="VersionHistory.usermeta" id="LightSwit~VersionHis~0002.usermeta" />
+          <file name="Description.rtf" id="LightSwit~Descriptio~0004.rtf" />
+          <file name="Variables.var.locres" id="LightSwit~Variables.~0001.locres" />
+          <file name="Description.html" id="LightSwit~Descriptio~0005.html" />
+          <file name="Code.st" id="LightSwitchMoni~Code~0001.st" />
         </folder>
       </folder>
     </folder>
