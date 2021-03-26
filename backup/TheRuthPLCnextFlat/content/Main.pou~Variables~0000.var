@@ -1,0 +1,13 @@
+{ CustomGroupDefinition('6d89ea51-80bf-4b89-805c-5d22adc78e3f', '') }
+
+VAR_EXTERNAL
+    CarPresent : BOOL { CustomGroupReference('6d89ea51-80bf-4b89-805c-5d22adc78e3f') } {Id('ea6baf06-8380-4882-91a9-dacda7fe37d9')};
+END_VAR
+
+VAR
+    RisingEdgeFB : R_TRIG { CustomGroupReference('6d89ea51-80bf-4b89-805c-5d22adc78e3f') } {Id('42476353-ea81-42ad-92ca-9d442eafb396')};
+END_VAR
+
+VAR_EXTERNAL
+    GarageDoorClosed : BOOL { CustomGroupReference('6d89ea51-80bf-4b89-805c-5d22adc78e3f') } {Id('b0509369-b2d6-4c46-bd0a-b5d3ab56562a')};
+END_VAR

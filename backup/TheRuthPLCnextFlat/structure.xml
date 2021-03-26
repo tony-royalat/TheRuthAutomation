@@ -114,7 +114,6 @@
         <file name="Description.html" id="Main.pou~Description~0001.html" />
         <file name="Variables.var.locres" id="Main.pou~Variables.v~0000.locres" />
         <file name="Code.st" id="Main.pou~Code~0000.st" />
-        <file name="User.locres" id="Main.pou~User~0000.locres" />
       </folder>
       <folder name="13_1280.jpg">
         <file name="Source" id="13_1280.jpg~Source~0000" />
@@ -150,8 +149,100 @@
       <folder name="LightSwitchMonitoring.pou" />
     </folder>
     <folder name="RecycleBin">
+      <folder name="548d5c3f-e9e8-48c0-bb95-5180309b4ed1">
+        <file name="548d5c3f-e9e8-48c0-bb95-5180309b4ed1" id="548d5c3f-~548d5c3f-e~0000" />
+        <folder name="AXC_F_1152">
+          <file name="dd0a88d4-00cb-433d-b497-ce8f3d0a77d5.ds" id="AXC_F_115~dd0a88d4-0~0000.ds" />
+          <folder name="DAP">
+            <file name="af5d65c8-7bb6-4604-a496-c286d538f311.ds" id="DAP~af5d65c8-7bb6-46~0000.ds" />
+            <folder name="DAP">
+              <file name="a490e3d4-43fe-44ab-b664-9715eb92ef2c.ds" id="DAP~a490e3d4-43fe-44~0000.ds" />
+            </folder>
+            <folder name="Interface">
+              <file name="1c171ff9-5c46-477e-94f3-d5bf5de96e5a.ds" id="Interface~1c171ff9-5~0000.ds" />
+            </folder>
+            <folder name="Port_1">
+              <file name="f98b63e2-6065-49fb-b08e-c214edf3f156.ds" id="Port_1~f98b63e2-6065~0000.ds" />
+            </folder>
+            <folder name="Port_2">
+              <file name="0230bcf7-27b7-417c-8b0f-86c98c89b9c2.ds" id="Port_2~0230bcf7-27b7~0000.ds" />
+            </folder>
+          </folder>
+          <folder name="IO_512">
+            <file name="cbbdd9cf-83b4-44fe-bde5-6184cf82fd16.ds" id="IO_512~cbbdd9cf-83b4~0000.ds" />
+            <folder name="IO_512">
+              <file name="44fa052b-ddd4-4f88-852f-51f4a01395ff.ds" id="IO_512~44fa052b-ddd4~0000.ds" />
+            </folder>
+          </folder>
+        </folder>
+      </folder>
       <folder name="07e76e72-9cbc-4bc5-921f-cdd068141202">
         <folder name="Login.hmi" />
+      </folder>
+      <folder name="4ada6b10-6a1f-40cf-afdd-23d59441eb90">
+        <file name="4ada6b10-6a1f-40cf-afdd-23d59441eb90" id="4ada6b10-~4ada6b10-6~0000" />
+        <folder name="Login.hmi">
+          <file name="Definition.hmipagedef" id="Login.hmi~Definition~0001.hmipagedef" />
+          <file name="Parameters.hmiparams" id="Login.hmi~Parameters~0001.hmiparams" />
+          <file name="Resources.locres" id="Login.hmi~Resources~0001.locres" />
+          <file name="Variables.hmivar" id="Login.hmi~Variables~0001.hmivar" />
+        </folder>
+      </folder>
+      <folder name="c84901e0-24de-44af-9ec2-21527ee5498c">
+        <file name="c84901e0-24de-44af-9ec2-21527ee5498c" id="c84901e0-~c84901e0-2~0000" />
+        <folder name="AXL_F_BK_PN">
+          <file name="b9b13606-7507-4337-a51d-4bc275551f9b.ds" id="AXL_F_BK_~b9b13606-7~0001.ds" />
+          <folder name="DAP">
+            <file name="a8046890-50fe-461c-b8c9-5f3ab06a9233.ds" id="DAP~a8046890-50fe-46~0001.ds" />
+            <folder name="DAP">
+              <file name="f623eab4-7d09-4b37-8bb7-243789cf2503.ds" id="DAP~f623eab4-7d09-4b~0001.ds" />
+            </folder>
+            <folder name="Interface">
+              <file name="4e3bdc52-ad44-43cb-a369-bc27c9ddb895.ds" id="Interface~4e3bdc52-a~0001.ds" />
+            </folder>
+            <folder name="Port_1">
+              <file name="8e102cfd-9f0c-403a-bc36-cef50c971296.ds" id="Port_1~8e102cfd-9f0c~0001.ds" />
+            </folder>
+            <folder name="Port_2">
+              <file name="e419a6da-2ce8-4fe1-b556-bf9f4423736f.ds" id="Port_2~e419a6da-2ce8~0001.ds" />
+            </folder>
+          </folder>
+          <folder name="AXL_F_AI2_AO2_1H">
+            <file name="a491384f-7661-4626-b5dd-e6fc612e789b.ds" id="AXL_F_AI2~a491384f-7~0001.ds" />
+            <folder name="AI2_AO2">
+              <file name="881bbb04-2cd2-41cf-9c56-c1207cdd7a69.ds" id="AI2_AO2~881bbb04-2cd~0001.ds" />
+            </folder>
+          </folder>
+          <folder name="AXL_F_DI8_1_DO8_1_1H">
+            <file name="5f4ef2ba-1be3-4116-9110-ffb23649967c.ds" id="AXL_F_DI8~5f4ef2ba-1~0001.ds" />
+            <folder name="DI8_DO8">
+              <file name="a876b27f-5ef3-4949-986a-e57ec307b15b.ds" id="DI8_DO8~a876b27f-5ef~0001.ds" />
+            </folder>
+          </folder>
+        </folder>
+      </folder>
+      <folder name="2d879e47-4f68-4528-8e3d-3585ae3e2640">
+        <file name="2d879e47-4f68-4528-8e3d-3585ae3e2640" id="2d879e47-~2d879e47-4~0000" />
+        <folder name="LightSwitchControl.pou">
+          <file name="Metadata.meta" id="LightSwitch~Metadata~0000.meta" />
+          <file name="Variables.var" id="LightSwitc~Variables~0000.var" />
+          <file name="VersionHistory.usermeta" id="LightSwit~VersionHis~0000.usermeta" />
+          <file name="Description.rtf" id="LightSwit~Descriptio~0000.rtf" />
+          <file name="Code.st" id="LightSwitchCont~Code~0000.st" />
+          <file name="Description.html" id="LightSwit~Descriptio~0001.html" />
+        </folder>
+      </folder>
+      <folder name="3ce1947b-d96a-453d-b660-0994700852f4">
+        <file name="3ce1947b-d96a-453d-b660-0994700852f4" id="3ce1947b-~3ce1947b-d~0000" />
+        <folder name="LightSwitchMonitoring.pou">
+          <file name="Metadata.meta" id="LightSwitch~Metadata~0002.meta" />
+          <file name="Variables.var" id="LightSwitc~Variables~0002.var" />
+          <file name="VersionHistory.usermeta" id="LightSwit~VersionHis~0002.usermeta" />
+          <file name="Description.rtf" id="LightSwit~Descriptio~0004.rtf" />
+          <file name="Variables.var.locres" id="LightSwit~Variables.~0001.locres" />
+          <file name="Description.html" id="LightSwit~Descriptio~0005.html" />
+          <file name="Code.st" id="LightSwitchMoni~Code~0001.st" />
+        </folder>
       </folder>
     </folder>
   </folder>

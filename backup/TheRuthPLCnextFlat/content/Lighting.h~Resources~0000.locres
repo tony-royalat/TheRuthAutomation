@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Languages ID="00000000-0000-0000-0000-000000000000" Name="Default" />
+  <Resources ID="22c71c2c-425a-4400-8ad5-531e69f219cd" Name="Button_Zone1.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Zone 1" />
+  </Resources>
+  <Resources ID="c74fc2fd-31f3-4473-b574-0979d05b04e1" Name="Button_Zone2.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Zone 2" />
+  </Resources>
+  <Resources ID="5fe37004-0fb2-4df2-a081-921edd7a47b8" Name="Button_Zone3.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Zone 3" />
+  </Resources>
+  <Resources ID="a74a155c-8604-4262-9336-72f1fefd6389" Name="Button_Zone4.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Zone 4" />
+  </Resources>
+  <Resources ID="b0a2b3d5-36aa-4e4a-8c79-77348c1b3514" Name="Button_Zone5.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Zone 5" />
+  </Resources>
+  <Resources ID="e4eed0e2-2e16-4618-acc3-827b9edee794" Name="Button_Zone6.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Zone 6" />
+  </Resources>
+  <Resources ID="ccc954ab-ddd5-48d5-80c5-b49c3fad25c2" Name="Button_Zone7.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Zone 7" />
+  </Resources>
+  <Resources ID="f9315d9f-39bd-44f7-9c3a-7d07334136e3" Name="Text_CarPresent.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Car Present" />
+  </Resources>
+  <Resources ID="49b637fe-f98a-4bbd-89ab-4c848791ce2f" Name="Text_GarageDoor.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Garage Door Closed" />
+  </Resources>
+  <Resources ID="0b7ce380-ce70-425a-9e99-f18eeb643acb" Name="Button_LightingBack.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Back" />
+  </Resources>
+  <Resources ID="8f88fd21-0531-491e-bb98-fe515cc5461b" Name="Button_FlashyFlash.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Woop Woop" />
+  </Resources>
+  <Resources ID="0c082e24-c4e8-4664-8470-db1bcf8b3e42" Name="Text_LightsOn.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Light Switch" />
+  </Resources>
+</ResourcesDocument>

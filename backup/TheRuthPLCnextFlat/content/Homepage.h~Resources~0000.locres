@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Languages ID="00000000-0000-0000-0000-000000000000" Name="Default" />
+  <Resources ID="603edfc8-bdff-472e-a70d-5970d4ce8e63" Name="Button_LightingPage.Text">
+    <Values LanguageID="00000000-0000-0000-0000-000000000000" LocalValue="Lighting" />
+  </Resources>
+</ResourcesDocument>
